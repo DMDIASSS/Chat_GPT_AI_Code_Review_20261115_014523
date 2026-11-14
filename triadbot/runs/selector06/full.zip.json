@@ -1,0 +1,35 @@
+{
+  "contract": {
+    "name": "triad-selector-six-octane-v1",
+    "observation": 240,
+    "actions": [
+      "chronos",
+      "galactus",
+      "fusion",
+      "ducky",
+      "rain",
+      "megabyte"
+    ],
+    "decision_ticks": 8,
+    "hold_decisions": 8,
+    "physics_batch_ticks": 2,
+    "expert_period_ticks": [
+      8,
+      8,
+      8,
+      8,
+      6,
+      8
+    ],
+    "expert_delay_ticks": [
+      7,
+      7,
+      7,
+      7,
+      5,
+      7
+    ]
+  },
+  "sha256": "3c125a3001a585282982822408d98b270ef91966e841cf4bc054273dc9538f40",
+  "timesteps": 2761114
+}

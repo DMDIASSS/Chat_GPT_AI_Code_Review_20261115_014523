@@ -1,0 +1,16 @@
+{
+  "schema": "sampling-policy-change-v1",
+  "policy": {
+    "schema": "opponent-sampling-policy-v1",
+    "method": "concessions-per-minute-v1",
+    "enabled": true,
+    "window_per_opponent": 128,
+    "update_every_episodes": 64,
+    "prior_seconds": 120.0,
+    "focus_fraction": 0.5,
+    "weight_update_fraction": 0.25,
+    "min_probability": 0.05,
+    "max_probability": 0.3
+  },
+  "source_checkpoint_sha256": "59dc1c1c123eb204318f79efd3dcfa0520da8938121196cbd170d0031a2582ba"
+}

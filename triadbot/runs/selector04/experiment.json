@@ -1,0 +1,107 @@
+{
+  "schema": "novaforge-experiment-v1",
+  "created": "20261106_053922_UTC_516be93d",
+  "adopted_at_timesteps": 0,
+  "identity": {
+    "config": {
+      "workers": 1,
+      "device": "cpu",
+      "threads": 1,
+      "seed": 631031,
+      "rewards": "shaped",
+      "env": {
+        "episode_seconds": 60,
+        "no_touch_seconds": 20,
+        "replay_bank": null,
+        "learner_hitbox": "breakout"
+      },
+      "ppo": {
+        "learning_rate": 5e-06,
+        "n_steps": 1024,
+        "batch_size": 512,
+        "n_epochs": 2,
+        "gamma": 0.999,
+        "gae_lambda": 0.97,
+        "clip_range": 0.05,
+        "ent_coef": 0.0002,
+        "target_kl": 0.01
+      },
+      "chronos": {
+        "reward_profile": "potential_goal_v2",
+        "actor_lr": 5e-06,
+        "critic_lr": 0.0003,
+        "anchor_coef": 0.2,
+        "critic_warmup_updates": 16,
+        "checkpoints_keep": 3,
+        "anchor_kl_limit": 0.1,
+        "guard": {
+          "enabled": true,
+          "every": 131072,
+          "pairs": 4,
+          "confirmation_pairs": 8,
+          "seconds": 60,
+          "seed": 83000001,
+          "min_delta": 0.03,
+          "z": 1.96,
+          "per_opponent_tolerance": 0.2,
+          "rollback_after": 2
+        }
+      },
+      "league": {
+        "snapshot_every": 32768,
+        "history_size": 6,
+        "weights": {
+          "chronos": 0.2375,
+          "galactus": 0.2375,
+          "ripple": 0.2375,
+          "nexto": 0.2375,
+          "demochaser": 0.05
+        }
+      },
+      "curriculum": {
+        "adaptive": false,
+        "weights": {
+          "kickoff": 0.5,
+          "shot": 0.15,
+          "defense": 0.15,
+          "dribble": 0.075,
+          "recovery": 0.075,
+          "aerial": 0.025,
+          "wall": 0.025
+        }
+      },
+      "selector_experts": [
+        "chronos",
+        "galactus",
+        "ripple",
+        "fusion"
+      ],
+      "selector_opponents": {
+        "chronos": 0.2375,
+        "galactus": 0.2375,
+        "ripple": 0.2375,
+        "nexto": 0.2375,
+        "demochaser": 0.05
+      },
+      "fusion_teacher": {
+        "path": "frozen_fusion.pt",
+        "sha256": "c66721937f3fdc2cfdfde6a9064bc0687a34bb0d2c901574cbd5954962d6176d"
+      }
+    },
+    "objective": {
+      "spec": {
+        "version": "goal-potential-v1",
+        "goal": 10.0,
+        "field": 0.35,
+        "distance": 0.1
+      },
+      "gamma": 0.999,
+      "decision_ticks": 8,
+      "equation": "goal*outcome + gamma*Phi(next) - Phi(old)",
+      "potential": "field*team_relative_ball_y/5120 - distance*min(car_ball_distance,12000)/6000",
+      "terminal_potential": 0,
+      "timeout_potential": "retained for value bootstrap",
+      "sha256": "e39cd78ffe12304bc3dec8959431cbebb6c6740dbb589a95113db70a94e2d476"
+    }
+  }
+}

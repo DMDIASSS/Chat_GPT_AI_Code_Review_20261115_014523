@@ -1,0 +1,16 @@
+{
+  "state": "stopped",
+  "timesteps": 131072,
+  "halt_reason": null,
+  "guard": {},
+  "wandb": {
+    "mode": "online",
+    "state": "online",
+    "id": "725529db",
+    "project": "novaforge",
+    "entity": "dm_dias-none",
+    "url": "https://forge.coreweave.com/wandb/dm_dias-none/novaforge/runs/725529db",
+    "timesteps": 131072,
+    "error": null
+  }
+}

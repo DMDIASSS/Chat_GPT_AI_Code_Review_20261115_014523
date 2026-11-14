@@ -1,0 +1,34 @@
+Replay-initialized hybrid training update
+
+Extract into E:\Downloads\Chat_GPT_AI, replacing the included source. Preserve .venv and all data.
+It uses your replay_rvq01 selected model and cached replay shards. No replay parsing or codec retraining.
+This is a NEW PPO/self-play experiment with human replay anchoring, not replay-only learning.
+
+CMD:
+cd /d "E:\Downloads\Chat_GPT_AI"
+REPLAY_HYBRID.bat check --device cuda
+
+When the small check completes successfully, start the separate actual run:
+REPLAY_HYBRID.bat start --device cuda
+
+Pause from another CMD: REPLAY_HYBRID.bat pause
+Wait for HYBRID_SAVED or normal launcher completion, then close. Resume with the same start command.
+W&B uses your existing login; local metrics remain saved.
+
+After training, export a validation-selected improvement:
+REPLAY_HYBRID.bat export --name ReplayHybrid01
+Load data\rlbot_exports\ReplayHybrid01\bot.cfg in RLBot v4.
+If no improvement is selected, it refuses to label initialization as an improved model.
+An explicitly experimental latest-weights export is available with --latest; read the guide first.
+
+Default training is one million controlled decisions in 1v1. Strength and attractive mechanics
+must be assessed from actual paired/held-out matches and live play; they are not promised by the source update.
+Read README_REPLAY_HYBRID.md for settings, optional local Nexto weights, reports and limitations.
+
+Nexto CUDA fix: original traced Nexto stays on CPU; your learning model stays on CUDA.
+Existing hybrid checkpoints and caches are preserved. Run the same check/start commands again.
+Expected startup: HYBRID_NEXTO: cpu | original traced opponent; learning model remains on cuda
+
+Windows compatibility fix: saved backslash code paths are accepted across both previous releases.
+Extract over the same project and rerun the same command. Do not delete checkpoints or cached replays.
+If a genuine mismatch remains, the error lists exact changed fields and writes compatibility_diagnostic.json.

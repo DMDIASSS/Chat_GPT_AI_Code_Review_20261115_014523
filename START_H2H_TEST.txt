@@ -1,0 +1,1 @@
+Close trainers and viewers. Merge this update into Chat_GPT_AI, including gigaforge/native and novaforge. Keep all runs and environments. Run gigaforge/9_VERIFY.bat then 20_WDL_BEST_VS_ORIGINAL_200x100.bat. Test only: 200 games, 100 simulated seconds each, 100 per color; no training or promotion. See gigaforge/HEAD_TO_HEAD.md.

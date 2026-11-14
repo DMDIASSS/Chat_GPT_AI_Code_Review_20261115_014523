@@ -1,0 +1,13 @@
+[settings]
+name = "Zenith"
+description = "Autonomous SOTA Rocket League Agent trained from scratch"
+developer = "Antigravity & User"
+agent_id = "zenith_v1"
+version = "1.0.0"
+
+[bot]
+hitbox = "breakout"
+model = "zenith.pt"
+obs_dim = 145
+actions = 90
+hidden_dim = 256

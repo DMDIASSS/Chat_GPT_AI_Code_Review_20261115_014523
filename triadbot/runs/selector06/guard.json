@@ -1,0 +1,165 @@
+{
+  "step": 2679550,
+  "checks": 20,
+  "regressions": 0,
+  "decision": "retain",
+  "statistics": {
+    "blocks": 28,
+    "trials": 56,
+    "mean_delta": -0.07142857142857142,
+    "standard_error": 0.04236935814298139,
+    "by_opponent_delta": {
+      "chronos": -0.125,
+      "galactus": 0.0,
+      "nexto": 0.0,
+      "ducky": 0.0,
+      "rain": -0.125,
+      "megabyte": -0.25,
+      "fusion": 0.0
+    }
+  },
+  "candidate": {
+    "matches": 56,
+    "wins": 36,
+    "draws": 15,
+    "losses": 5,
+    "goals_for": 116,
+    "goals_against": 27
+  },
+  "champion": {
+    "matches": 56,
+    "wins": 41,
+    "draws": 9,
+    "losses": 6,
+    "goals_for": 123,
+    "goals_against": 26
+  },
+  "by_opponent": {
+    "chronos": {
+      "candidate": {
+        "matches": 8,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "goals_for": 17,
+        "goals_against": 6
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 7,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 17,
+        "goals_against": 4
+      }
+    },
+    "ducky": {
+      "candidate": {
+        "matches": 8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 21,
+        "goals_against": 0
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 23,
+        "goals_against": 0
+      }
+    },
+    "fusion": {
+      "candidate": {
+        "matches": 8,
+        "wins": 2,
+        "draws": 3,
+        "losses": 3,
+        "goals_for": 7,
+        "goals_against": 10
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 2,
+        "draws": 3,
+        "losses": 3,
+        "goals_for": 7,
+        "goals_against": 10
+      }
+    },
+    "galactus": {
+      "candidate": {
+        "matches": 8,
+        "wins": 1,
+        "draws": 6,
+        "losses": 1,
+        "goals_for": 7,
+        "goals_against": 7
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 2,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 7,
+        "goals_against": 9
+      }
+    },
+    "megabyte": {
+      "candidate": {
+        "matches": 8,
+        "wins": 5,
+        "draws": 3,
+        "losses": 0,
+        "goals_for": 13,
+        "goals_against": 2
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 7,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 17,
+        "goals_against": 1
+      }
+    },
+    "nexto": {
+      "candidate": {
+        "matches": 8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 31,
+        "goals_against": 0
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 30,
+        "goals_against": 0
+      }
+    },
+    "rain": {
+      "candidate": {
+        "matches": 8,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "goals_for": 20,
+        "goals_against": 2
+      },
+      "champion": {
+        "matches": 8,
+        "wins": 7,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 22,
+        "goals_against": 2
+      }
+    }
+  }
+}

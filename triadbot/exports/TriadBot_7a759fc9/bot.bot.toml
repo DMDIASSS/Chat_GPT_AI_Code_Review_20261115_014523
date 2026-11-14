@@ -1,0 +1,13 @@
+[settings]
+name = "TriadBot six-expert selector octane"
+agent_id = "DMDIASSS/TriadBot_7a759fc9"
+run_command = "\"E:\\Downloads\\Chat_GPT_AI\\novaforge\\.venv\\Scripts\\python.exe\" run_triad.py --body octane"
+run_command_linux = "\"E:\\Downloads\\Chat_GPT_AI\\novaforge\\.venv\\Scripts\\python.exe\" run_triad.py --body octane"
+loadout_file = "loadout.toml"
+hivemind = true
+
+[details]
+developer = "NovaForge user; original models credited under assets"
+description = "Chronos + GalactusV2 + local Fusion + Ducky + Rain + Megabyte. Fixed Octane; six frozen experts."
+language = "python"
+tags = ["1v1"]

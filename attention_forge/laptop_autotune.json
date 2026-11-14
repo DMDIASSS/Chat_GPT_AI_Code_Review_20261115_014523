@@ -1,0 +1,90 @@
+{
+  "version": "attentionforge-laptop-tune-v1",
+  "created_utc": "2026-11-14T16:44:34Z",
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "selected": {
+    "arenas": 128,
+    "native_threads": 2,
+    "torch_threads": 2,
+    "device": "cuda",
+    "inference_and_simulation_player_sps": 19558.015587220423,
+    "optimizer_minibatch_seconds": 0.027287500000966247,
+    "estimated_full_ppo_learning_sps": 3783.3856534345755,
+    "peak_probe_cuda_mb": 154.005859375,
+    "host_rollout_mb": 437.625,
+    "sample_steps": 16,
+    "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+  },
+  "probes": [
+    {
+      "arenas": 32,
+      "native_threads": 4,
+      "torch_threads": 2,
+      "device": "cuda",
+      "inference_and_simulation_player_sps": 11651.842049147255,
+      "optimizer_minibatch_seconds": 0.032841650001500966,
+      "estimated_full_ppo_learning_sps": 2920.5715762851783,
+      "peak_probe_cuda_mb": 152.66162109375,
+      "host_rollout_mb": 109.40625,
+      "sample_steps": 16,
+      "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+    },
+    {
+      "arenas": 64,
+      "native_threads": 4,
+      "torch_threads": 2,
+      "device": "cuda",
+      "inference_and_simulation_player_sps": 18502.7415319266,
+      "optimizer_minibatch_seconds": 0.03158554999936314,
+      "estimated_full_ppo_learning_sps": 3324.377965604729,
+      "peak_probe_cuda_mb": 153.109375,
+      "host_rollout_mb": 218.8125,
+      "sample_steps": 16,
+      "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+    },
+    {
+      "arenas": 128,
+      "native_threads": 4,
+      "torch_threads": 2,
+      "device": "cuda",
+      "inference_and_simulation_player_sps": 21119.596417803674,
+      "optimizer_minibatch_seconds": 0.028112150001106784,
+      "estimated_full_ppo_learning_sps": 3745.661191841304,
+      "peak_probe_cuda_mb": 154.005859375,
+      "host_rollout_mb": 437.625,
+      "sample_steps": 16,
+      "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+    },
+    {
+      "arenas": 128,
+      "native_threads": 2,
+      "torch_threads": 2,
+      "device": "cuda",
+      "inference_and_simulation_player_sps": 19558.015587220423,
+      "optimizer_minibatch_seconds": 0.027287500000966247,
+      "estimated_full_ppo_learning_sps": 3783.3856534345755,
+      "peak_probe_cuda_mb": 154.005859375,
+      "host_rollout_mb": 437.625,
+      "sample_steps": 16,
+      "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+    },
+    {
+      "arenas": 128,
+      "native_threads": 4,
+      "torch_threads": 1,
+      "device": "cuda",
+      "inference_and_simulation_player_sps": 21573.916208171886,
+      "optimizer_minibatch_seconds": 0.02867485000024317,
+      "estimated_full_ppo_learning_sps": 3698.573150767198,
+      "peak_probe_cuda_mb": 154.005859375,
+      "host_rollout_mb": 437.625,
+      "sample_steps": 16,
+      "method": "16 collection steps after warmup plus 2 optimizer minibatches; full-update throughput is estimated, not measured"
+    }
+  ],
+  "limitations": [
+    "Small timing probes are noisy and their full-PPO rate is an estimate. Confirm with actual training metrics.",
+    "Arena count changes samples per PPO update. Playing strength is not evaluated by tuning.",
+    "No training epochs, tick skip, action delay, model size, reward weights or numeric precision are reduced for speed."
+  ]
+}

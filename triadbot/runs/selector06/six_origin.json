@@ -1,0 +1,8 @@
+{
+  "schema": "six-expert-octane-v1",
+  "source_run": "selector04",
+  "source_selector_sha256": "60b3196fd88e5341eba2cb6aaa6f4c6bef7d8e3829553117c782267f95a7f14c",
+  "frozen_fusion_sha256": "c66721937f3fdc2cfdfde6a9064bc0687a34bb0d2c901574cbd5954962d6176d",
+  "extra_teacher_lock_sha256": "e95f11e36b488cc5ce7c88536917cc5b623c213cbfbaa3ae16bdd28d8fa23326",
+  "note": "Exact local frozen Fusion retained; new Octane selector gate starts at zero, initially routes greedily to Fusion. Source model strength on Octane is not asserted."
+}

@@ -1,0 +1,67 @@
+# NovaForge v1.14.0
+
+**New direct-policy league:** Open the sibling `forgeleague` project for two independent trainable actors, a controlled critic pilot and protected exports. Existing selectors stay separate. [Research scope](FORGELEAGUE_v0.1.md).
+
+**Existing selector unattended mode:** TriadBot 35 backs up and resumes selector06, keeps adaptive opponents and regression checks, writes automatic progress reports and exports each new retained champion. Frozen inference and unused-observation work are optimized without changing PPO/rewards/timing. 36 measures local environment speed. [Unattended training and measured limits](UNATTENDED_v1.13.md).
+
+**Adaptive training opponents:** TriadBot 33 enables concession-rate sampling on your existing selector06; resume with 27. Its bounded weights/history persist in PPO checkpoints, with W&B sampling charts and report summaries. Evaluations remain balanced. Launcher 34 disables it. [Instructions](ADAPTIVE_OPPONENTS_v1.12.md).
+
+**Six-expert Octane selector:** TriadBot launchers 26–32 preserve selector04's exact frozen Fusion and create a new selector06 with Chronos, Galactus V2, Fusion, Ducky, Rain 1v1 and Megabyte. Ripple is excluded from the new run. Model-specific observations and six/eight-tick clocks run on two-tick physics batches. [Setup and limits](OCTANE_SIX_v1.11.md).
+
+**Routing pilot:** sibling TriadBot launcher 25 compares latest greedy and sampled routing against initialization and fixed experts, with fresh paired starts and a separate report. No training or promotion. [Instructions](ROUTING_TEST_v1.10.1.md).
+
+**Selected/refined Fusion as fourth expert:** [new isolated workflow and launchers 14–24](FOUR_EXPERTS_v1.10.md). [Candidate/2v2 roadmap](EXPERT_AND_TEAM_PLAN_v1.10.md).
+
+**Telemetry correction:** [actual learned-selector probabilities](SELECTOR_TELEMETRY_v1.10.md). Existing three-way checkpoints remain compatible.
+
+**Selector diagnostics and Triad watch fix:** [launcher 13, probability audit and fixed-expert/body checks](DIAGNOSTICS_v1.9.1.md).
+
+**Research stages 1–2:** [versioned objectives, isolated experiments and evaluation archives](RESEARCH_v1.9.md). No new reward winner is claimed.
+
+**Evaluation fix:** [thread limit, immediate launcher output and per-game progress](EVALUATION_HOTFIX_v1.8.1.md).
+
+**TriadBot v1.1:** [learned options selector, exact model pins, fixed body settings and immediate local v5 exports](TRIAD_SELECTOR_v1.1.md). Existing Chronos runs and launchers remain available.
+
+**Current guide: [Finish, unattended safeguards, fusion and both exports](FINISH_AND_FUSION.md).** Launcher 35 upgrades/resumes chronos01 with backed-up settings, longer reward credit, automatic W/D/L checks, protected champion and regression stops. Launcher 38 still watches the latest learner; 51 watches the champion. Launcher 40 exports both .pt/.cfg and .lt/.toml. Launcher 43 starts the separate fusion01 experiment. [TriadBot](SECOND_PROJECT.md) is a separate random three-expert project.
+
+Continue training the actual Chronos policy with reward-driven PPO, four frozen opponents and snapshot self-play. The new **chronos01** run is separate from earlier copying experiments.
+
+## Start
+
+Pause copy02 with 22 and wait for its console to exit. Merge this ZIP at your project folder's parent; it contains **chat_gpt_ai/novaforge/**. Keep .venv, assets and runs. Run **1_CHECK.bat**, then **35_START_OR_RESUME_CHRONOS.bat**. Fresh installations first need **0_INSTALL.bat**.
+
+| Launcher | Action |
+| --- | --- |
+| 35 | Start/resume Chronos PPO continuously with W&B |
+| 36 | Request a safe training pause |
+| 37 | Show training/dashboard status |
+| 38 | Watch the latest learner with automatic RLViser camera |
+| 39 | Compare current vs unchanged initialization; export a report |
+| 40 | Export .lt components and an RLBot v5 .bot.toml launcher |
+| 41 | Export a metrics report ZIP |
+| 42 | Watch the unchanged Chronos initialization |
+
+Unattended W/D/L checks run every 131,072 decisions. Use 41 to export a report when needed. Initializing from Chronos avoids learning basic controls from scratch; improvement over Chronos still needs gameplay evidence.
+
+[Step-by-step Chronos guide](CHRONOS_TRAINING.md) · [Upstream review](UPSTREAM_REVIEW.md) · [Plan](PLAN.md) · [Validation](VALIDATION.md) · [Attribution](THIRD_PARTY.md)
+
+## What changed
+
+- Actual 225-feature / 90-action Chronos shared head and policy weights, preserving its mirror convention, action mask and delayed controls.
+- Separate new critic, critic-only warmup, small actor learning rate and frozen initialization KL penalty.
+- Frozen original Chronos, GalactusV2, Ripple and Nexto opponents, plus latest/historical frozen learner snapshots.
+- Goal/concede reward and discount-consistent potential shaping; full optimizer resume, bounded checkpoint retention and W&B using the SDK's saved local login.
+- Permanent initialization for paired screening, initial/current viewing, metrics reports, combined actor.lt and separate SHARED_HEAD.lt / POLICY.lt exports.
+- Fixed shared kickoff spawn arrays being modified during orange-team resets. Historical kickoff comparisons from affected versions were not reliably paired and should not rank policies. New comparisons verify identical initial observations.
+
+The review inventories 233 public repositories from the five supplied accounts, retrieves 203 root READMEs and examines selected training/deployment source in 19 pinned archives. It records compatibility limits and deferred integrations; no native GigaLearn throughput or strength gain is claimed.
+
+## Existing experiments
+
+Old runs and launchers remain available: [copy02](FROZEN_TEACHER_COPYING.md), [candidate inspection](CANDIDATE_REVIEW_v1.5.4.md), [mixed PPO](MULTI_BOT_GUIDE.md), [reports](PROGRESS_REPORTS.md), [W&B](WANDB_AND_CONTINUOUS.md), [general installation and replay workflow](START_HERE.md), [viewer setup](RLVISER_CAMERA.md), and [earlier export formats](V5_EXPORT.md).
+
+Designed for Windows 10, i5-10300H, GTX 1650 Ti Mobile and 16 GB RAM. Defaults use two simulator workers. Actual laptop CUDA speed and full offline RLBot matches need user testing. The source ZIP contains no model weights; launchers fetch pinned, hash-verified originals. It does not grant new rights over those originals.
+
+## Independent direct-policy research league (1.14.0)
+
+A separate sibling `forgeleague` project trains Chronos-family and Galactus-family actors directly, starting from retained Fusion when available and native Galactus V2. It adds a controlled privileged-critic pilot, frozen snapshot opponents and curriculum challengers, paired WDL safeguards, full optimizer resume and two independent v5 exports. Existing runs are not migrated or reset. See [research scope and validation](FORGELEAGUE_v0.1.md); the sibling ForgeLeague README gives launcher instructions. Strength gains require measured confirmation.

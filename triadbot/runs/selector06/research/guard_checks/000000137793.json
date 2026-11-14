@@ -1,0 +1,37 @@
+{
+  "step": 137793,
+  "checks": 1,
+  "regressions": 0,
+  "decision": "retain",
+  "statistics": {
+    "blocks": 28,
+    "trials": 56,
+    "mean_delta": 0.10714285714285714,
+    "standard_error": 0.10714285714285714,
+    "by_opponent_delta": {
+      "chronos": 0.0,
+      "galactus": 0.375,
+      "nexto": 0.125,
+      "ducky": 0.125,
+      "rain": 0.125,
+      "megabyte": -0.125,
+      "fusion": 0.125
+    }
+  },
+  "candidate": {
+    "matches": 56,
+    "wins": 38,
+    "draws": 6,
+    "losses": 12,
+    "goals_for": 115,
+    "goals_against": 35
+  },
+  "champion": {
+    "matches": 56,
+    "wins": 34,
+    "draws": 8,
+    "losses": 14,
+    "goals_for": 118,
+    "goals_against": 60
+  }
+}

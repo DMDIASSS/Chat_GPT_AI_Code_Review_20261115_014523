@@ -1,0 +1,13 @@
+[settings]
+name = "GEMINI_BOT"
+agent_id = "GEMINI_BOT/Ghost_v1"
+run_command = "\"E:\\Downloads\\Chat_GPT_AI\\.venv\\Scripts\\python.exe\" bot.py"
+run_command_linux = "\"E:\\Downloads\\Chat_GPT_AI\\.venv\\Scripts\\python.exe\" bot.py"
+loadout_file = "loadout.toml"
+hivemind = false
+
+[details]
+developer = "Antigravity + User"
+description = "Ghost Hybrid RL Bot combining Chronos defense and Galactus aerial/offensive strike via Tactical Threat Judge and Pinch Solver."
+language = "python"
+tags = ["1v1", "2v2", "3v3"]

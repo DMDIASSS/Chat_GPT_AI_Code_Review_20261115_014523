@@ -1,0 +1,47 @@
+{
+  "run": "fusion_refine01",
+  "source_sha256": "a27b00ac1a94bd1f71f0d06287453b8e24ad05249d46f209fccbb668c1cf341d",
+  "selected_actor_sha256": "c61e2845527c74af090b69d4895f2a2c15133e343c3d9c7b53fa8798b1eb8e57",
+  "retained_champion": {
+    "path": "checkpoints\\step_000000000000.zip",
+    "timesteps": 0,
+    "sha256": "a27b00ac1a94bd1f71f0d06287453b8e24ad05249d46f209fccbb668c1cf341d",
+    "reason": "Selected trained Fusion initialization; no unverified promotion"
+  },
+  "guard": {
+    "regressions": 0,
+    "last_checked_step": 131072,
+    "checks": 1,
+    "decision": "retain",
+    "statistics": {
+      "blocks": 16,
+      "trials": 32,
+      "mean_delta": 0.09375,
+      "standard_error": 0.24246455926588528,
+      "by_opponent_delta": {
+        "chronos": 0.125,
+        "galactus": 0.5,
+        "nexto": -0.25,
+        "ripple": 0.0
+      }
+    },
+    "champion_sha256": "a27b00ac1a94bd1f71f0d06287453b8e24ad05249d46f209fccbb668c1cf341d",
+    "champion_timesteps": 0,
+    "candidate_wdl": {
+      "matches": 32,
+      "wins": 25,
+      "draws": 3,
+      "losses": 4,
+      "goals_for": 84,
+      "goals_against": 19
+    },
+    "champion_wdl": {
+      "matches": 32,
+      "wins": 23,
+      "draws": 4,
+      "losses": 5,
+      "goals_for": 78,
+      "goals_against": 17
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "method": "concessions-per-minute-v1",
+  "policy_sha256": "e6be9ac9a251d3b3c1bb9972b37cf2713a3a520ad5fef819753de4d24cc35b0b",
+  "episodes": 10288,
+  "updates": 160,
+  "weights": {
+    "chronos": 0.19106027411196116,
+    "galactus": 0.1712182492191059,
+    "nexto": 0.10819854420965297,
+    "ducky": 0.0815508899716757,
+    "rain": 0.16409286815058405,
+    "megabyte": 0.12333066402883425,
+    "fusion": 0.1605485103081859
+  },
+  "estimated_concessions_per_minute": {
+    "chronos": 1.1133642241115596,
+    "galactus": 0.9943007088176355,
+    "nexto": 0.43957954409070926,
+    "ducky": 0.05933808828932018,
+    "rain": 0.9335382733831162,
+    "megabyte": 0.5565674189803115,
+    "fusion": 1.0021962388586894
+  },
+  "window_episodes": {
+    "chronos": 128,
+    "galactus": 128,
+    "nexto": 128,
+    "ducky": 128,
+    "rain": 128,
+    "megabyte": 128,
+    "fusion": 128
+  },
+  "note": "Training first-goal episodes; duration-normalized and shrunk toward pooled rate. Includes curriculum resets. Not an unbiased match-strength ranking.",
+  "timesteps": 2761114
+}

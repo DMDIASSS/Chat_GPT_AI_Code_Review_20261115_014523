@@ -1,0 +1,42 @@
+{
+  "contract": {
+    "name": "triad-selector-six-octane-v1",
+    "observation": 240,
+    "actions": [
+      "chronos",
+      "galactus",
+      "fusion",
+      "ducky",
+      "rain",
+      "megabyte"
+    ],
+    "decision_ticks": 8,
+    "hold_decisions": 8,
+    "physics_batch_ticks": 2,
+    "expert_period_ticks": [
+      8,
+      8,
+      8,
+      8,
+      6,
+      8
+    ],
+    "expert_delay_ticks": [
+      7,
+      7,
+      7,
+      7,
+      5,
+      7
+    ]
+  },
+  "sha256": "0f55eb8f7cd74ff5b501b8af947ee63009091e218f7c8926557b76babc14853b",
+  "timesteps": 2761114,
+  "hitbox": "octane",
+  "teacher_lock_sha256": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b",
+  "fusion_teacher": {
+    "path": "frozen_fusion.pt",
+    "sha256": "c66721937f3fdc2cfdfde6a9064bc0687a34bb0d2c901574cbd5954962d6176d"
+  },
+  "extra_teacher_lock_sha256": "e95f11e36b488cc5ce7c88536917cc5b623c213cbfbaa3ae16bdd28d8fa23326"
+}

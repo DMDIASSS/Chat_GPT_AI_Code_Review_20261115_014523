@@ -1,0 +1,15 @@
+{
+  "GPU_PROFILE.bat": "aa00d3a14ebd9abf48203b9387c6d6908e43f2347fa2497e3b3bd624c9677214",
+  "GPU_RUN.bat": "5d7937e8229458fb9558c8e610d37822c259a3966e63586c7dc0044fef98e9d5",
+  "GPU_UPDATE.md": "4f589c3046958e2c4a4659d46d59d78a4a0f098184f9f4a3bbc173bc6cc6055a",
+  "GPU_VALIDATION.json": "dcdec4b3693c6ce56e0c07124d83f67282501c971f593cdf58b6f091bed26e9a",
+  "attentionforge/__init__.py": "3793e99f718f6a929871ff3553ed8441f11267e196f192e93fe11b0c28d7a50c",
+  "attentionforge/execution.py": "9aff64a1fabf1102e0f4bd8f838144ef32c33c7a8b3e447d0b5a36d249a1dc8a",
+  "attentionforge/gpu_profile.py": "90938196871b87060cc652086c1eaecb891f2211f8b77f945bc481d924e95ed8",
+  "attentionforge/train.py": "36aad47cd700cec0db14a51745c8625ad334132b08852bc3db3436b04d450e62",
+  "attentionforge/model.py": "b80cdb6c84df212432fb387c9cdc1dc2c566a30e5fdad7ae5a80f86f95c810a5",
+  "attentionforge/tune.py": "20b223074c4841ebdc735d564ee7b897b866d1d265702d0ef39fd6aedca3874e",
+  "attentionforge/cli.py": "d8c820d3bd31c98d2d20c550364a61ed096293bfa0dd0d363beb2c52c98e7908",
+  "attentionforge/laptop.py": "ec2a3788caefee49685bd7cc8c8151473465bf9eb381a1dc9fc40f236fc618a7",
+  "tests/test_gpu_execution.py": "3c0f7a584c3f7909f06753574961fff30bb4f1b7d5f34347b6e8ac3bf63549af"
+}

@@ -1,0 +1,2550 @@
+{
+  "kind": "six_expert_diagnostics_v1",
+  "candidate_sha256": "93c06d35a2811b44860e03224f92f0d1144bb78ed064e2b0d8f8bd00b0770c87",
+  "candidate_timesteps": 72257,
+  "initial_sha256": "8f5174455033a9d1ca9be3f5a4b5b6d1d4d0d4a2102426b85949e775da72e2c6",
+  "frozen_fusion_sha256": "c66721937f3fdc2cfdfde6a9064bc0687a34bb0d2c901574cbd5954962d6176d",
+  "body": "octane",
+  "experts": [
+    "chronos",
+    "galactus",
+    "fusion",
+    "ducky",
+    "rain",
+    "megabyte"
+  ],
+  "opponents": [
+    "chronos",
+    "galactus",
+    "nexto",
+    "ducky",
+    "rain",
+    "megabyte",
+    "fusion"
+  ],
+  "pairs": 1,
+  "seconds": 15.0,
+  "seed_start": 491000001,
+  "free_choice_probabilities": {
+    "latest": {
+      "free_choices": 407,
+      "probability_mean": {
+        "chronos": 0.12793635531793301,
+        "galactus": 0.23626577241287816,
+        "fusion": 0.35178913833292885,
+        "ducky": 0.10004632418975112,
+        "rain": 0.12401190418030886,
+        "megabyte": 0.05995050556620025
+      },
+      "probability_std": {
+        "chronos": 0.0018707378118199406,
+        "galactus": 0.009626555959368894,
+        "fusion": 0.0073223058138115055,
+        "ducky": 0.003211399296951706,
+        "rain": 0.002331194837662965,
+        "megabyte": 0.0026915688698733848
+      },
+      "probability_min": {
+        "chronos": 0.12322156358811784,
+        "galactus": 0.19576493086470081,
+        "fusion": 0.33240453089757677,
+        "ducky": 0.09354648539639475,
+        "rain": 0.1187261105949855,
+        "megabyte": 0.055124815437505845
+      },
+      "probability_max": {
+        "chronos": 0.13268611753161924,
+        "galactus": 0.256665265639305,
+        "fusion": 0.3732555428824357,
+        "ducky": 0.11379188595526471,
+        "rain": 0.13214011811251133,
+        "megabyte": 0.06860374268165038
+      },
+      "greedy_choices": {
+        "chronos": 0,
+        "galactus": 0,
+        "fusion": 407,
+        "ducky": 0,
+        "rain": 0,
+        "megabyte": 0
+      },
+      "mean_entropy_nats": 1.6289445660849586,
+      "mean_top_two_margin": 0.11552336592005089,
+      "top_two_margin_percentiles_first_4096": {
+        "p10": 0.0994239276701728,
+        "p50": 0.11491693306878159,
+        "p90": 0.13692886984437827
+      },
+      "mean_kl_to_initial": 0.0628580737679719
+    },
+    "initial_on_same_latest_visited_contexts": {
+      "free_choices": 407,
+      "probability_mean": {
+        "chronos": 0.1295625143296492,
+        "galactus": 0.1295625143296492,
+        "fusion": 0.35218742835175393,
+        "ducky": 0.1295625143296492,
+        "rain": 0.1295625143296492,
+        "megabyte": 0.1295625143296492
+      },
+      "probability_std": {
+        "chronos": 1.645043653683336e-08,
+        "galactus": 1.645043653683336e-08,
+        "fusion": 0.0,
+        "ducky": 1.645043653683336e-08,
+        "rain": 1.645043653683336e-08,
+        "megabyte": 1.645043653683336e-08
+      },
+      "probability_min": {
+        "chronos": 0.12956251432964971,
+        "galactus": 0.12956251432964971,
+        "fusion": 0.35218742835175143,
+        "ducky": 0.12956251432964971,
+        "rain": 0.12956251432964971,
+        "megabyte": 0.12956251432964971
+      },
+      "probability_max": {
+        "chronos": 0.12956251432964971,
+        "galactus": 0.12956251432964971,
+        "fusion": 0.35218742835175143,
+        "ducky": 0.12956251432964971,
+        "rain": 0.12956251432964971,
+        "megabyte": 0.12956251432964971
+      },
+      "greedy_choices": {
+        "chronos": 0,
+        "galactus": 0,
+        "fusion": 407,
+        "ducky": 0,
+        "rain": 0,
+        "megabyte": 0
+      },
+      "mean_entropy_nats": 1.6914043498341023,
+      "mean_top_two_margin": 0.2226249140221019,
+      "top_two_margin_percentiles_first_4096": {
+        "p10": 0.22262491402210172,
+        "p50": 0.22262491402210172,
+        "p90": 0.22262491402210172
+      },
+      "mean_kl_to_initial": 0.0
+    },
+    "by_opponent": {
+      "chronos": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12838434941214835,
+          "galactus": 0.2383954055424107,
+          "fusion": 0.3499417063061173,
+          "ducky": 0.0998630395015164,
+          "rain": 0.12367298155773523,
+          "megabyte": 0.05974251768007182
+        },
+        "probability_std": {
+          "chronos": 0.0018366725866885776,
+          "galactus": 0.010657973993000778,
+          "fusion": 0.007921226600962592,
+          "ducky": 0.0035686426336148814,
+          "rain": 0.0022219731676713507,
+          "megabyte": 0.0026637231998650006
+        },
+        "probability_min": {
+          "chronos": 0.12417854446361078,
+          "galactus": 0.19576493086470081,
+          "fusion": 0.33240453089757677,
+          "ducky": 0.09552825057938784,
+          "rain": 0.12049306611059021,
+          "megabyte": 0.05652204310373003
+        },
+        "probability_max": {
+          "chronos": 0.132282060557185,
+          "galactus": 0.25622297429987567,
+          "fusion": 0.3731502659338936,
+          "ducky": 0.11379188595526471,
+          "rain": 0.12970174262621387,
+          "megabyte": 0.06860374268165038
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6292108660094722,
+        "mean_top_two_margin": 0.11154630076370657,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.09421480868241627,
+          "p50": 0.10914349121616716,
+          "p90": 0.13495180275983382
+        },
+        "mean_kl_to_initial": 0.0644392058702679
+      },
+      "galactus": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12815821610830883,
+          "galactus": 0.23487195739507524,
+          "fusion": 0.35107037452027867,
+          "ducky": 0.1005600846074475,
+          "rain": 0.12493154634618847,
+          "megabyte": 0.06040782102270142
+        },
+        "probability_std": {
+          "chronos": 0.001997943744403825,
+          "galactus": 0.008136711930827703,
+          "fusion": 0.007193868421364957,
+          "ducky": 0.0025514363102298976,
+          "rain": 0.0020650113590657405,
+          "megabyte": 0.002301037969299864
+        },
+        "probability_min": {
+          "chronos": 0.12367327842045286,
+          "galactus": 0.21460484283947695,
+          "fusion": 0.33498075539741734,
+          "ducky": 0.09609556095684982,
+          "rain": 0.12030843633716493,
+          "megabyte": 0.05564521258635485
+        },
+        "probability_max": {
+          "chronos": 0.1320097145330642,
+          "galactus": 0.2473705336225806,
+          "fusion": 0.36997328257478146,
+          "ducky": 0.10767785125171808,
+          "rain": 0.13092325475197322,
+          "megabyte": 0.06602945103547314
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6311130476018487,
+        "mean_top_two_margin": 0.11619841712520332,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.10063020517941033,
+          "p50": 0.11452651925798933,
+          "p90": 0.13707899874055815
+        },
+        "mean_kl_to_initial": 0.06140835606373028
+      },
+      "nexto": {
+        "free_choices": 59,
+        "probability_mean": {
+          "chronos": 0.12761206617970045,
+          "galactus": 0.2358719857689528,
+          "fusion": 0.35339513485721247,
+          "ducky": 0.0998181533871584,
+          "rain": 0.12374851526257567,
+          "megabyte": 0.059554144544400084
+        },
+        "probability_std": {
+          "chronos": 0.0017748359788136623,
+          "galactus": 0.01075185039624881,
+          "fusion": 0.0070938278963109565,
+          "ducky": 0.003520222569778991,
+          "rain": 0.0022751924485584383,
+          "megabyte": 0.0029509410083239295
+        },
+        "probability_min": {
+          "chronos": 0.12432514739970252,
+          "galactus": 0.21613535956150018,
+          "fusion": 0.340821624669018,
+          "ducky": 0.09354648539639475,
+          "rain": 0.1187261105949855,
+          "megabyte": 0.055541851975432106
+        },
+        "probability_max": {
+          "chronos": 0.13268611753161924,
+          "galactus": 0.25412435928208105,
+          "fusion": 0.36647257263097555,
+          "ducky": 0.10970806758221324,
+          "rain": 0.12881265769136366,
+          "megabyte": 0.06758117636967131
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 59,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6271271083990888,
+        "mean_top_two_margin": 0.11752314908825974,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.10135623927125449,
+          "p50": 0.11570685328956243,
+          "p90": 0.14183406071368784
+        },
+        "mean_kl_to_initial": 0.06306953492955619
+      },
+      "ducky": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12762897455445765,
+          "galactus": 0.23571422889623514,
+          "fusion": 0.35343398923189684,
+          "ducky": 0.09994115355997267,
+          "rain": 0.12340280928229676,
+          "megabyte": 0.059878844475140816
+        },
+        "probability_std": {
+          "chronos": 0.002155873369945184,
+          "galactus": 0.009808567313468377,
+          "fusion": 0.006932986546757231,
+          "ducky": 0.0036195476051478544,
+          "rain": 0.0018902782773042093,
+          "megabyte": 0.00239128743841229
+        },
+        "probability_min": {
+          "chronos": 0.12362816619255874,
+          "galactus": 0.204063965090134,
+          "fusion": 0.33628679863817146,
+          "ducky": 0.09386870886527167,
+          "rain": 0.1205179260869786,
+          "megabyte": 0.056146945185109716
+        },
+        "probability_max": {
+          "chronos": 0.13254620019661076,
+          "galactus": 0.24988365419980127,
+          "fusion": 0.3702636146239009,
+          "ducky": 0.10938758860138842,
+          "rain": 0.1277293060552621,
+          "megabyte": 0.0668494116658327
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6275134568220546,
+        "mean_top_two_margin": 0.11771976033566171,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.10175459026410061,
+          "p50": 0.11702976628870984,
+          "p90": 0.13073423665978826
+        },
+        "mean_kl_to_initial": 0.06264433213190627
+      },
+      "rain": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12809768819383208,
+          "galactus": 0.23543869700166395,
+          "fusion": 0.3516486492953662,
+          "ducky": 0.10001263932565428,
+          "rain": 0.12449334265702258,
+          "megabyte": 0.060308983526461045
+        },
+        "probability_std": {
+          "chronos": 0.0016629019791090348,
+          "galactus": 0.009338633163147102,
+          "fusion": 0.007435323442712317,
+          "ducky": 0.0030304405417225897,
+          "rain": 0.0023573278168499486,
+          "megabyte": 0.0027647542785058147
+        },
+        "probability_min": {
+          "chronos": 0.12322156358811784,
+          "galactus": 0.21754941343645098,
+          "fusion": 0.3359096474476474,
+          "ducky": 0.09598015849940465,
+          "rain": 0.12109054670546797,
+          "megabyte": 0.05524905965851699
+        },
+        "probability_max": {
+          "chronos": 0.13265065459429412,
+          "galactus": 0.2556054285873118,
+          "fusion": 0.36790142520148694,
+          "ducky": 0.10770880840438411,
+          "rain": 0.12959633318341332,
+          "megabyte": 0.0664514445772881
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6298837988316455,
+        "mean_top_two_margin": 0.11620995229370229,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.10054605243253767,
+          "p50": 0.11553714378439932,
+          "p90": 0.1386147621928498
+        },
+        "mean_kl_to_initial": 0.0620593300588461
+      },
+      "megabyte": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12762096247034493,
+          "galactus": 0.2344691212127556,
+          "fusion": 0.35263883314521,
+          "ducky": 0.10058994640802386,
+          "rain": 0.12402963433201408,
+          "megabyte": 0.06065150243165147
+        },
+        "probability_std": {
+          "chronos": 0.0017200899143511496,
+          "galactus": 0.009691581813564111,
+          "fusion": 0.00706117141914191,
+          "ducky": 0.003051832408655524,
+          "rain": 0.0029269941871361985,
+          "megabyte": 0.0030288969435176933
+        },
+        "probability_min": {
+          "chronos": 0.12352344876334101,
+          "galactus": 0.21307016423838357,
+          "fusion": 0.3413926223725238,
+          "ducky": 0.09633624248903486,
+          "rain": 0.11918784715158964,
+          "megabyte": 0.05574583161567011
+        },
+        "probability_max": {
+          "chronos": 0.13253439106077308,
+          "galactus": 0.24787163779948734,
+          "fusion": 0.3732555428824357,
+          "ducky": 0.1077055794939088,
+          "rain": 0.13214011811251133,
+          "megabyte": 0.06799419853562279
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6298202464084517,
+        "mean_top_two_margin": 0.11816971193245433,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.10085005626850568,
+          "p50": 0.11614323592494269,
+          "p90": 0.13772368616275882
+        },
+        "mean_kl_to_initial": 0.0611326986321957
+      },
+      "fusion": {
+        "free_choices": 58,
+        "probability_mean": {
+          "chronos": 0.12805782149877742,
+          "galactus": 0.2391058004979477,
+          "fusion": 0.35036759137917395,
+          "ducky": 0.09954318651783936,
+          "rain": 0.12380904101256601,
+          "megabyte": 0.05911655909369551
+        },
+        "probability_std": {
+          "chronos": 0.0017392762078584476,
+          "galactus": 0.0075256439801009035,
+          "fusion": 0.006731872681567708,
+          "ducky": 0.0028300184378321595,
+          "rain": 0.0020724205917644037,
+          "megabyte": 0.0023063536954282962
+        },
+        "probability_min": {
+          "chronos": 0.12347758636761372,
+          "galactus": 0.22194112438937397,
+          "fusion": 0.335430062613445,
+          "ducky": 0.09371621681092274,
+          "rain": 0.11973937000094707,
+          "megabyte": 0.055124815437505845
+        },
+        "probability_max": {
+          "chronos": 0.13116881303935632,
+          "galactus": 0.256665265639305,
+          "fusion": 0.3645932070741085,
+          "ducky": 0.10772245348315496,
+          "rain": 0.12921753469806282,
+          "megabyte": 0.06541515185816187
+        },
+        "greedy_choices": {
+          "chronos": 0,
+          "galactus": 0,
+          "fusion": 58,
+          "ducky": 0,
+          "rain": 0,
+          "megabyte": 0
+        },
+        "mean_entropy_nats": 1.6279747739994792,
+        "mean_top_two_margin": 0.11126179088122627,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.0950486552913721,
+          "p50": 0.11291294457471719,
+          "p90": 0.12438153131231397
+        },
+        "mean_kl_to_initial": 0.06524941280720477
+      }
+    },
+    "forced_decisions_excluded": 2746,
+    "note": "Probabilities are measured only when the commitment expires. Initial weights are queried on the same latest-policy observations/context, not separate initial-policy trajectories."
+  },
+  "latest_expert_decisions": {
+    "chronos": 0,
+    "galactus": 0,
+    "fusion": 3153,
+    "ducky": 0,
+    "rain": 0,
+    "megabyte": 0
+  },
+  "summaries": {
+    "selector_latest": {
+      "matches": 14,
+      "wins": 8,
+      "draws": 6,
+      "losses": 0,
+      "goals_for": 11,
+      "goals_against": 1,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 1
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_chronos": {
+      "matches": 14,
+      "wins": 2,
+      "draws": 11,
+      "losses": 1,
+      "goals_for": 2,
+      "goals_against": 1,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_galactus": {
+      "matches": 14,
+      "wins": 5,
+      "draws": 9,
+      "losses": 0,
+      "goals_for": 5,
+      "goals_against": 0,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_fusion": {
+      "matches": 14,
+      "wins": 8,
+      "draws": 6,
+      "losses": 0,
+      "goals_for": 11,
+      "goals_against": 1,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 1
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_ducky": {
+      "matches": 14,
+      "wins": 3,
+      "draws": 7,
+      "losses": 4,
+      "goals_for": 4,
+      "goals_against": 6,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 2
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 1
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_rain": {
+      "matches": 14,
+      "wins": 3,
+      "draws": 7,
+      "losses": 4,
+      "goals_for": 5,
+      "goals_against": 4,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 4,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 2
+        }
+      }
+    },
+    "fixed_megabyte": {
+      "matches": 14,
+      "wins": 3,
+      "draws": 10,
+      "losses": 1,
+      "goals_for": 5,
+      "goals_against": 1,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 4,
+          "goals_against": 0
+        },
+        "ducky": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "rain": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 0,
+          "goals_against": 0
+        },
+        "megabyte": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "fusion": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        }
+      }
+    }
+  },
+  "paired_vs_fixed_fusion": {
+    "selector_latest": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": 0.0,
+      "standard_error": 0.0,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": 0.0,
+        "nexto": 0.0,
+        "ducky": 0.0,
+        "rain": 0.0,
+        "megabyte": 0.0,
+        "fusion": 0.0
+      }
+    },
+    "fixed_chronos": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": -0.5,
+      "standard_error": 0.1543033499620919,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": -0.5,
+        "nexto": -1.0,
+        "ducky": 0.0,
+        "rain": -0.5,
+        "megabyte": -1.0,
+        "fusion": -0.5
+      }
+    },
+    "fixed_galactus": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": -0.21428571428571427,
+      "standard_error": 0.21428571428571427,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": 0.0,
+        "nexto": -1.0,
+        "ducky": -1.0,
+        "rain": 0.5,
+        "megabyte": 0.0,
+        "fusion": 0.0
+      }
+    },
+    "fixed_ducky": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": -0.6428571428571429,
+      "standard_error": 0.17975796274454164,
+      "by_opponent_delta": {
+        "chronos": -0.5,
+        "galactus": -0.5,
+        "nexto": -1.0,
+        "ducky": 0.0,
+        "rain": -0.5,
+        "megabyte": -1.5,
+        "fusion": -0.5
+      }
+    },
+    "fixed_rain": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": -0.6428571428571429,
+      "standard_error": 0.2102800206268535,
+      "by_opponent_delta": {
+        "chronos": -0.5,
+        "galactus": 0.0,
+        "nexto": 0.0,
+        "ducky": -1.0,
+        "rain": -1.0,
+        "megabyte": -0.5,
+        "fusion": -1.5
+      }
+    },
+    "fixed_megabyte": {
+      "blocks": 7,
+      "trials": 14,
+      "mean_delta": -0.42857142857142855,
+      "standard_error": 0.17003401020340117,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": 0.0,
+        "nexto": 0.0,
+        "ducky": -1.0,
+        "rain": -0.5,
+        "megabyte": -0.5,
+        "fusion": -1.0
+      }
+    }
+  },
+  "trials": {
+    "selector_latest": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 35,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 25,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 26,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 28,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 94,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 28,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 35,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 31,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 11,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 40,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 20,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_chronos": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 30,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 9,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 13,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 18,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 26,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 13,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 4,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 23,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 17,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_galactus": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 9,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 20,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 118,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 31,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 41,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 37,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 42,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 31,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 22,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_fusion": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 35,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 27,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 26,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 28,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 94,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 28,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 35,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 31,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 11,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 40,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 20,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_ducky": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 13,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 9,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 57,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 49,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 46,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 19,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 9,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 31,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_rain": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 11,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 4,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 3,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 46,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 11,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 20,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ],
+    "fixed_megabyte": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 491000001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 10,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 19,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 491100001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 491200001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "fa464d7102426157ad9e752dd2c92ec0a30c2ba4575fbf4b575dc8217a720b58"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 8,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "ducky",
+        "scenario": "match",
+        "seed": 491300001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 47,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 4,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "rain",
+        "scenario": "match",
+        "seed": 491400001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 4,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "b0cb2627b5b8958f023b1d774fea92bd07dfc5574c281a220767bc5f9a1d7f8b"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 39,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "megabyte",
+        "scenario": "match",
+        "seed": 491500001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 38,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "3e6c1eff6e6a46c2ee0495ac8cf9fed22ce660d98ef6bf7095b22843f234f212"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 0,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      },
+      {
+        "opponent": "fusion",
+        "scenario": "match",
+        "seed": 491600001,
+        "side": 1,
+        "seconds": 15.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 9,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "ea1af32fdeae21695095cd70f0deeaa5c5c6c34f3b23db1741bcb17e831fe22c"
+      }
+    ]
+  },
+  "provenance": {
+    "source_sha256": "467b618058f9e426b790c926b016fcaa3400e5c1f1a945b1e0961fa2de8778d1",
+    "files": {
+      "configs/bot_candidates_v1.json": "cc53dc9d114bce2b8f888e6c4fb6ced7b4a0ada71089a76be64d1eb2d3811cd1",
+      "configs/chronos.json": "6ac601ad5f3743a33cb7936c9da1d373dbfa2ca959aca724255edfb08ab22074",
+      "configs/copy.json": "cb3e7dfbc38c1bf5fd245d0962211448a8415a5754a56a51c2ce30fd04eb6f69",
+      "configs/diverse.json": "3d8dc066c05bc5d2aced9fa47cc483117eac18a57ca365816ad3d328133ad462",
+      "configs/laptop.json": "7751ae20e665866c01861b93347eecc40fb1dc203382d9c2bf4e562940172636",
+      "configs/selector_research_v1.json": "7e2160a519a1d2f6c0a75202f1efc89dc4c882c9d684303e8444c4255975f07e",
+      "extra_teachers.lock.json": "e95f11e36b488cc5ce7c88536917cc5b623c213cbfbaa3ae16bdd28d8fa23326",
+      "nova/__init__.py": "b9354f8d2e67ff8d7f9fe7bc516d56f67f16b7edd82d0235592d2be311a984e9",
+      "nova/chronos.py": "95f4097e8fd1e1579120425f10e79b6a153309fc97b139bdf715585a14c9465e",
+      "nova/chronos_fusion.py": "bd4048bb561052a6ff8e756925ab2c74d029f3746e2987d2177bc10876de338a",
+      "nova/chronos_guard.py": "1ffe94702ce00b11306d504bb86e8b0e160c8f826ffc753307487cc173a6e1f9",
+      "nova/chronos_league.py": "dd183b5d55806c8b3226f3a2edbef9bd4c5ab888ec64aae20862fe2aa0335dc4",
+      "nova/chronos_live.py": "389070ac00c068e35ab1c83b048853a36b1f7de8fc41c6c52f80d6f9c7710935",
+      "nova/chronos_tools.py": "e3beec36decd56bceac4e99e9ff415fe5ad4ea524f89fa42887f6025c83ce8c8",
+      "nova/chronos_training.py": "70eb8d1010ee72f41cd06437094cfcef481070b55ecff9f1e21b99d45e7a5ce0",
+      "nova/chronos_v4.py": "1a4fb4acab7e97a1d0cd8f30162c71dfcc454a85b098871febac5bb2856d06ee",
+      "nova/core.py": "5b447e2e1bc06d24121b0f254bacb4f5b9029f1b734562ebaede1015adde1393",
+      "nova/data.py": "e0f3f9d586ccb58ba3e0fc1471014e3840b42670d904a2e2324ca7b1037a93e6",
+      "nova/diagnostics.py": "75e8e4ecea31a9a813de58547e6784f42c94044c0707504af59f8b6b70eeee55",
+      "nova/environment.py": "833f71686574f68bde65bcf1406b837d272cd88b0a67daaee2e6ce67516010fd",
+      "nova/evaluation.py": "e860751bcaf401f1e5acb2f71ef8c888339470fe5fb0912042cf236292ea5ca7",
+      "nova/fusion_selection.py": "cbfa964fa9f0ea3f3d76a16a292dda97997dcd8d50cabc97779fb5df4052cfb4",
+      "nova/fusion_teacher.py": "164306baeadf7e3230ec743a88680adb42639c9a2c11a862bfe3016e37e91c33",
+      "nova/giga_teachers.py": "9618ed93d49ef886fe6ed473cdb19a75be2e55b73a56b7ebb115e7d55313af67",
+      "nova/imitation.py": "cb6c067a172f9324d80fc59caf9c444d7ea0d66bbf2f6ea3aa9b618254ef7e25",
+      "nova/models.py": "102a8066b43f7e132a481afba917d67a2c6385426f44f54e6b176c99464c95bf",
+      "nova/objectives.py": "191d3cd19ee017c427a0d6d68292a6042b18b43e4b8cfece1a27d4160c7cabf9",
+      "nova/packaging.py": "4d858ff8d2eb0fb1b8acaa9aac5466d5fcfd524cae00aa514ffd94e1c17868e3",
+      "nova/reporting.py": "03112e8d364bee652b42d6e9d213d70629ea8d0c5e3f8462e2d3dbaa20b4479f",
+      "nova/research.py": "a89a11da9839d6ac789efa790fd90cf55fae1f57b180a501615770d0b1d6655a",
+      "nova/scenarios.py": "5319ddab0b88383a94b7124180068b47641ebb4384d997642f78b56d66b9a9da",
+      "nova/selector_diagnostics.py": "2f5d2c356724e3aff21aef7ed3cfbe688be6c2994e62552c5878d9e63d9ca97d",
+      "nova/selector_routing.py": "2213ca49e3d0d8566890d1c517174a3104774be09b87be3e3844709dce70ff06",
+      "nova/six_experts.py": "8431ab12244a376f5999244e450ad6e9e6a313a99996696f8e4184a817cfb181",
+      "nova/six_selector.py": "fae836cbdaaced4c33cbe627067c365f233617199d5e3f056b1965ca2bbc42e3",
+      "nova/teachers.py": "b8e1434aaa4facb5f7b2075fe05073a88824fc9f57c8a1c1501b73ebfcf86a9c",
+      "nova/tracking.py": "347ee4dcf6cc349455fb32da6dd7d121e22a4df281b3767087e04d49033d11b2",
+      "nova/training.py": "a9aaed2aca05778e3070e09e22e67b6b880a27c29872828272bc38f8732177b1",
+      "nova/triad.py": "91bb151c460d2a52cb739628bdfff35b912e702c6f58ff555f5fd39b860948dc",
+      "nova/triad_boot.py": "24e77a8fddcaa0eba8717c24e95e811734ce7caac0891a8f5307fef010c06f90",
+      "nova/triad_selector.py": "c287a144e786eeae553b04a57fafa3fea938e33c2b985da64fbe208094bf322e",
+      "nova/viewer.py": "19c82e0819a7258cf6e20f172c33bcc0788cff99b8fd17acdeb3311d69f6b2bf",
+      "requirements.txt": "569f6e405a8583ad0ab8558345d8750e3ca6df6ef95d391beafe0fb7f35003d8",
+      "run.py": "b8fddeb528f9cc036614ab66f92932bb9a8a02d37bbb5c9b05efb5335f530f0a",
+      "teachers.lock.json": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b"
+    },
+    "versions": {
+      "torch": "2.9.1+cpu",
+      "numpy": "1.26.4",
+      "RocketSim": "2.2.1",
+      "rlgym": "2.0.1",
+      "rlgym-tools": "2.6.5",
+      "stable-baselines3": "2.9.2",
+      "onnxruntime": "1.23.2"
+    },
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "teacher_lock_sha256": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b",
+    "selector_training": {
+      "learning_rate": 0.0001,
+      "n_steps": 512,
+      "batch_size": 256,
+      "n_epochs": 4,
+      "gae_lambda": 0.97,
+      "clip_range": 0.1,
+      "ent_coef": 0.003,
+      "target_kl": 0.02,
+      "gamma": 0.999,
+      "workers": 1,
+      "device": "cpu",
+      "threads": 1,
+      "net_arch": {
+        "pi": [
+          128,
+          128
+        ],
+        "vf": [
+          128,
+          128
+        ]
+      }
+    },
+    "objective": {
+      "spec": {
+        "version": "goal-potential-v1",
+        "goal": 10.0,
+        "field": 0.35,
+        "distance": 0.1
+      },
+      "gamma": 0.999,
+      "decision_ticks": 8,
+      "equation": "goal*outcome + gamma*Phi(next) - Phi(old)",
+      "potential": "field*team_relative_ball_y/5120 - distance*min(car_ball_distance,12000)/6000",
+      "terminal_potential": 0,
+      "timeout_potential": "retained for value bootstrap",
+      "sha256": "e39cd78ffe12304bc3dec8959431cbebb6c6740dbb589a95113db70a94e2d476"
+    },
+    "limitations": "Seeded starts and policy RNG do not guarantee bitwise RocketSim trajectories. Automatic demolition respawns use native randomness without an exposed global seed. Resume restores policy/optimizer/timesteps, not a mid-rollout physics/RNG snapshot. Repeat independent seeds and training seeds before claiming an improvement."
+  },
+  "wall_seconds": 154.63999999999942,
+  "limitations": "Seeded starts and policy RNG do not guarantee bitwise RocketSim trajectories. Automatic demolition respawns use native randomness without an exposed global seed. Resume restores policy/optimizer/timesteps, not a mid-rollout physics/RNG snapshot. Repeat independent seeds and training seeds before claiming an improvement. All learner conditions use Octane. Six/eight-tick expert periods run on two-tick physics batches with one-tick simulator input delay. Ported deterministic neural policies omit external kickoff/difficulty helpers. Ducky uses installed RocketSim ball prediction in place of its V3 backend; world-contact normal is unavailable for turtle masks. Padding permutations have the same distribution, not the same C++ random stream. This is exploratory, not a promotion test or proof of native strength.",
+  "protected_run_files_unchanged": true
+}

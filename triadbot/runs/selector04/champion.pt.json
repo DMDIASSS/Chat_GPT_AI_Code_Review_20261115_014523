@@ -1,0 +1,22 @@
+{
+  "contract": {
+    "name": "triad-selector-four-v1",
+    "observation": 236,
+    "actions": [
+      "chronos",
+      "galactus",
+      "ripple",
+      "fusion"
+    ],
+    "decision_ticks": 8,
+    "hold_decisions": 8
+  },
+  "sha256": "b289904dda6d804d7f9403e6df35fb1e3442b0e67eead619797c92f7b0eacd7c",
+  "timesteps": 0,
+  "hitbox": "breakout",
+  "teacher_lock_sha256": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b",
+  "fusion_teacher": {
+    "path": "frozen_fusion.pt",
+    "sha256": "c66721937f3fdc2cfdfde6a9064bc0687a34bb0d2c901574cbd5954962d6176d"
+  }
+}

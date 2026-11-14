@@ -1,0 +1,12 @@
+[settings]
+name = "TriadBot random experts"
+agent_id = "DMDIASSS/TriadBot_abc20809"
+run_command = "\".venv\\Scripts\\python.exe\" run_triad.py"
+run_command_linux = "\".venv/bin/python\" run_triad.py"
+hivemind = true
+
+[details]
+developer = "NovaForge user; models credited to original authors"
+description = "Three frozen models with age/repetition weighted selection. Experimental timing/action projections."
+language = "python"
+tags = ["1v1"]

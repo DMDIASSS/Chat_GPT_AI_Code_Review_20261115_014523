@@ -1,0 +1,1 @@
+Pause existing training with 4 and wait for it to stop. Merge this folder into Chat_GPT_AI, including gigaforge/native. Keep runs, models, environments and exports. Run gigaforge/9_VERIFY.bat then gigaforge/3_START_OR_RESUME.bat. This continues the same research02 optimizer checkpoints. No new CUDA download or local compiler is required. See gigaforge/PAIRED_REPAIR.md.

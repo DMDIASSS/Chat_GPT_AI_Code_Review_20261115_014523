@@ -1,0 +1,3 @@
+Run COLLECT_SOURCE_AND_RESULTS.bat directly from Chat_GPT_AI. It finds gigaforge automatically. Upload the new ZIP printed in Chat_GPT_AI/review_uploads.
+This collector includes project source and research diagnostics (newest numbered research runs first, including research05 and research06). It does not start training, install dependencies, change existing models, or upload automatically. Model weights and environments are excluded. Review the generated ZIP before sharing.
+This package contains only the collector, not a training update or a new model. Existing gigaforge source and checkpoints are not replaced.

@@ -1,0 +1,19 @@
+{
+  "contract": {
+    "name": "novaforge-chronos-1v1-v1",
+    "observation": 225,
+    "training_observation": 315,
+    "actions": 90,
+    "action_sha256": "86baa15c48c42c497f3ea0fe62efeb49e4a8241cb3191957822e453cd2d0b655",
+    "tick_skip": 8,
+    "planned_action_delay_ticks": 7,
+    "simulator_action_delay_ticks": 1,
+    "mirror": "chronos-own-positive-x",
+    "boost_timer_order": "pinned-chronos-deployed"
+  },
+  "sha256": "3e3a25dfe3bcaca689ee4636b070c855c88faf204b94d97a30bfa5557f4db151",
+  "timesteps": 135170,
+  "role": "frozen_local_fusion_teacher",
+  "source_checkpoint_sha256": "61e710bc5eb5cd11a7443dcc054f772dce0e24ec44948a2102237d22e73b1de4",
+  "parameter_sha256": "9eba0d3cc71ebb555da2accead3c5531237f197cd8ed6d53fdb0da0a8be35ed6"
+}

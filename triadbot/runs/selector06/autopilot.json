@@ -1,0 +1,13 @@
+{
+  "schema": "selector-autopilot-v1",
+  "updated_utc": "2026-11-06T15:27:23Z",
+  "champion_export": {
+    "sha256": "55bb5b55c676aeb4a5fabe55b1d5258472e2e099171c2e52e3355cf7f442e547",
+    "timesteps": 975614,
+    "folder": "E:\\Downloads\\Chat_GPT_AI\\triadbot\\exports\\TriadBot_11779946",
+    "toml": "E:\\Downloads\\Chat_GPT_AI\\triadbot\\exports\\TriadBot_11779946\\bot.bot.toml",
+    "runtime_version": "1.10.0"
+  },
+  "artifact_errors": [],
+  "report_zip": "E:\\Downloads\\Chat_GPT_AI\\triadbot\\reports\\selector06_research_20261106_152723_UTC_bfd571d5.zip"
+}

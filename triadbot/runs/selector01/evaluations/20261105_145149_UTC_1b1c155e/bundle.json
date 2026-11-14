@@ -1,0 +1,16 @@
+{
+  "schema": "novaforge-checkpoint-bundle-v1",
+  "files": {
+    "full.zip": "ea743f0b50c13e1e0b83e36661666631a8b1425d5ac292b9713e9982a869bd16",
+    "full.zip.json": "e353d7a95ed17fe8b3163b89ec638730ccc589cfe9940cd1451979464c6b53af",
+    "latest.pt": "6d7b4959285396d19d40612b86f622cbee47c5203ba6ad184129d3e26982d3e4",
+    "latest.pt.json": "bc022f3ad48a9d9fb02cb6336b899f1ea937506355258e50e8ef665cb1663e52",
+    "initial.pt": "8028a29bb954458b7a0d66e661a14683ee66b3de9c7c995cb2b55fb98afd0e60",
+    "initial.pt.json": "83cee615d6709e2051a724802beebfbb83265829666096b8ea0c0728aebde31c",
+    "champion.pt": "8028a29bb954458b7a0d66e661a14683ee66b3de9c7c995cb2b55fb98afd0e60",
+    "champion.pt.json": "83cee615d6709e2051a724802beebfbb83265829666096b8ea0c0728aebde31c",
+    "config.json": "5282bd14b2828b7b43f9ec1e0a6fa0827e7e3c1648d2a2fabf54e7f2eef47499",
+    "guard.json": "066ad8136d8029d2a739bb2fcc4cd0822b68cd91749c0b2bb765372625cf1436",
+    "status.json": "5d08f1d65275fb34e7740683e3fa3fbf69bf02e3d42ef3c4c62bc90833b9ef43"
+  }
+}

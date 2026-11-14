@@ -1,0 +1,15 @@
+{
+  "contract": {
+    "name": "triad-selector-v1",
+    "observation": 234,
+    "actions": [
+      "chronos",
+      "galactus",
+      "ripple"
+    ],
+    "decision_ticks": 8,
+    "hold_decisions": 8
+  },
+  "sha256": "cab44b84beac9e89d363f71eaa9af716fa1ba8fba6e6d67d0b2bf56b49278051",
+  "timesteps": 43052
+}

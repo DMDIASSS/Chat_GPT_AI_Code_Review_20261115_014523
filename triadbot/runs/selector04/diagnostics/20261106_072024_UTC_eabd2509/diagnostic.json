@@ -1,0 +1,1647 @@
+{
+  "kind": "selector_diagnostics_v1",
+  "candidate_sha256": "60b3196fd88e5341eba2cb6aaa6f4c6bef7d8e3829553117c782267f95a7f14c",
+  "candidate_timesteps": 131072,
+  "initial_sha256": "b289904dda6d804d7f9403e6df35fb1e3442b0e67eead619797c92f7b0eacd7c",
+  "conditions": [
+    {
+      "label": "selector_latest",
+      "body": "breakout",
+      "expert": null
+    },
+    {
+      "label": "fixed_chronos",
+      "body": "breakout",
+      "expert": "chronos"
+    },
+    {
+      "label": "fixed_galactus",
+      "body": "breakout",
+      "expert": "galactus"
+    },
+    {
+      "label": "fixed_ripple",
+      "body": "breakout",
+      "expert": "ripple"
+    },
+    {
+      "label": "fixed_fusion",
+      "body": "breakout",
+      "expert": "fusion"
+    },
+    {
+      "label": "galactus_reference_body",
+      "body": "octane",
+      "expert": "galactus"
+    },
+    {
+      "label": "ripple_reference_body",
+      "body": "octane",
+      "expert": "ripple"
+    }
+  ],
+  "opponents": [
+    "chronos",
+    "galactus",
+    "nexto",
+    "ripple"
+  ],
+  "pairs": 1,
+  "seconds": 30.0,
+  "seed_start": 331000001,
+  "free_choice_probabilities": {
+    "latest": {
+      "free_choices": 458,
+      "probability_mean": {
+        "chronos": 0.7597622123834075,
+        "galactus": 0.12034680800248256,
+        "ripple": 0.02943599344421356,
+        "fusion": 0.0904549861698959
+      },
+      "probability_std": {
+        "chronos": 0.01653391156409235,
+        "galactus": 0.008760546650213906,
+        "ripple": 0.00394002775251407,
+        "fusion": 0.004874323446789801
+      },
+      "probability_min": {
+        "chronos": 0.6800908186392841,
+        "galactus": 0.10269470801136124,
+        "ripple": 0.022135069184041043,
+        "fusion": 0.08100317752964856
+      },
+      "probability_max": {
+        "chronos": 0.7924926901992583,
+        "galactus": 0.15911444705345734,
+        "ripple": 0.044638283471959694,
+        "fusion": 0.11615645083529876
+      },
+      "greedy_choices": {
+        "chronos": 458,
+        "galactus": 0,
+        "ripple": 0,
+        "fusion": 0
+      },
+      "mean_entropy_nats": 0.7838144597084862,
+      "mean_top_two_margin": 0.6394154043809257,
+      "top_two_margin_percentiles_first_4096": {
+        "p10": 0.6043740605945858,
+        "p50": 0.6419087290510728,
+        "p90": 0.6718947727935531
+      },
+      "mean_kl_to_initial": 0.20009170853678493
+    },
+    "initial_on_same_latest_visited_contexts": {
+      "free_choices": 458,
+      "probability_mean": {
+        "chronos": 0.47536688641866975,
+        "galactus": 0.17487770452710977,
+        "ripple": 0.17487770452710977,
+        "fusion": 0.17487770452710977
+      },
+      "probability_std": {
+        "chronos": 0.0,
+        "galactus": 0.0,
+        "ripple": 0.0,
+        "fusion": 0.0
+      },
+      "probability_min": {
+        "chronos": 0.4753668864186717,
+        "galactus": 0.17487770452710943,
+        "ripple": 0.17487770452710943,
+        "fusion": 0.17487770452710943
+      },
+      "probability_max": {
+        "chronos": 0.4753668864186717,
+        "galactus": 0.17487770452710943,
+        "ripple": 0.17487770452710943,
+        "fusion": 0.17487770452710943
+      },
+      "greedy_choices": {
+        "chronos": 458,
+        "galactus": 0,
+        "ripple": 0,
+        "fusion": 0
+      },
+      "mean_entropy_nats": 1.2683014942100093,
+      "mean_top_two_margin": 0.3004891818915626,
+      "top_two_margin_percentiles_first_4096": {
+        "p10": 0.30048918189156226,
+        "p50": 0.30048918189156226,
+        "p90": 0.30048918189156226
+      },
+      "mean_kl_to_initial": 0.0
+    },
+    "by_opponent": {
+      "chronos": {
+        "free_choices": 114,
+        "probability_mean": {
+          "chronos": 0.7615210756275061,
+          "galactus": 0.1196800277882525,
+          "ripple": 0.02902691929683799,
+          "fusion": 0.08977197728740344
+        },
+        "probability_std": {
+          "chronos": 0.01603269826771023,
+          "galactus": 0.00926771425374171,
+          "ripple": 0.003517734544474891,
+          "fusion": 0.004162544777253614
+        },
+        "probability_min": {
+          "chronos": 0.7005094407822138,
+          "galactus": 0.10269470801136124,
+          "ripple": 0.0230837803256577,
+          "fusion": 0.08101304548178631
+        },
+        "probability_max": {
+          "chronos": 0.7924926901992583,
+          "galactus": 0.15311450900180093,
+          "ripple": 0.040797186461776457,
+          "fusion": 0.10557886375420893
+        },
+        "greedy_choices": {
+          "chronos": 114,
+          "galactus": 0,
+          "ripple": 0,
+          "fusion": 0
+        },
+        "mean_entropy_nats": 0.7798489636201104,
+        "mean_top_two_margin": 0.6418410478392537,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.6093999442101055,
+          "p50": 0.6423835440764356,
+          "p90": 0.6718409559355911
+        },
+        "mean_kl_to_initial": 0.20229834138106295
+      },
+      "galactus": {
+        "free_choices": 114,
+        "probability_mean": {
+          "chronos": 0.7564374497510272,
+          "galactus": 0.12257033794775678,
+          "ripple": 0.029837386313192615,
+          "fusion": 0.09115482598802348
+        },
+        "probability_std": {
+          "chronos": 0.016645171043700495,
+          "galactus": 0.00891661592813929,
+          "ripple": 0.003806952750450088,
+          "fusion": 0.004944113344627431
+        },
+        "probability_min": {
+          "chronos": 0.7127519611498683,
+          "galactus": 0.10378877707977124,
+          "ripple": 0.02327670980411464,
+          "fusion": 0.08193733652688912
+        },
+        "probability_max": {
+          "chronos": 0.790997176589225,
+          "galactus": 0.148833898892998,
+          "ripple": 0.03912115656435731,
+          "fusion": 0.10466757176736459
+        },
+        "greedy_choices": {
+          "chronos": 114,
+          "galactus": 0,
+          "ripple": 0,
+          "fusion": 0
+        },
+        "mean_entropy_nats": 0.7906763149000255,
+        "mean_top_two_margin": 0.6338671118032707,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.6012036355468626,
+          "p50": 0.6359580230159336,
+          "p90": 0.6650207029385132
+        },
+        "mean_kl_to_initial": 0.1965546159776263
+      },
+      "nexto": {
+        "free_choices": 114,
+        "probability_mean": {
+          "chronos": 0.7604593968341323,
+          "galactus": 0.11981521130919899,
+          "ripple": 0.028973454306136036,
+          "fusion": 0.09075193755053199
+        },
+        "probability_std": {
+          "chronos": 0.017834690547423773,
+          "galactus": 0.009074476287525264,
+          "ripple": 0.004029050647693214,
+          "fusion": 0.0055815084458373425
+        },
+        "probability_min": {
+          "chronos": 0.6800908186392841,
+          "galactus": 0.10548908356665986,
+          "ripple": 0.022135069184041043,
+          "fusion": 0.08288498477033981
+        },
+        "probability_max": {
+          "chronos": 0.7894908624789594,
+          "galactus": 0.15911444705345734,
+          "ripple": 0.044638283471959694,
+          "fusion": 0.11615645083529876
+        },
+        "greedy_choices": {
+          "chronos": 114,
+          "galactus": 0,
+          "ripple": 0,
+          "fusion": 0
+        },
+        "mean_entropy_nats": 0.7818587792725538,
+        "mean_top_two_margin": 0.6406441855249339,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.6011405581335856,
+          "p50": 0.6449836494569001,
+          "p90": 0.6718134837334131
+        },
+        "mean_kl_to_initial": 0.20135020452199265
+      },
+      "ripple": {
+        "free_choices": 116,
+        "probability_mean": {
+          "chronos": 0.7606159494772146,
+          "galactus": 0.11933933001709725,
+          "ripple": 0.029898106612127728,
+          "fusion": 0.09014661389356027
+        },
+        "probability_std": {
+          "chronos": 0.015057833283845334,
+          "galactus": 0.00727731131028755,
+          "ripple": 0.004264767336690066,
+          "fusion": 0.004584615695243413
+        },
+        "probability_min": {
+          "chronos": 0.7215768329889732,
+          "galactus": 0.10300420918994897,
+          "ripple": 0.022152514928776124,
+          "fusion": 0.08100317752964856
+        },
+        "probability_max": {
+          "chronos": 0.7900604889820502,
+          "galactus": 0.13943271799143567,
+          "ripple": 0.04298947649727415,
+          "fusion": 0.10365348080162207
+        },
+        "greedy_choices": {
+          "chronos": 116,
+          "galactus": 0,
+          "ripple": 0,
+          "fusion": 0
+        },
+        "mean_entropy_nats": 0.7828899996389657,
+        "mean_top_two_margin": 0.6412766194601176,
+        "top_two_margin_percentiles_first_4096": {
+          "p10": 0.6165745014183567,
+          "p50": 0.6385298058797223,
+          "p90": 0.6733349472816711
+        },
+        "mean_kl_to_initial": 0.2001624315124989
+      }
+    },
+    "forced_decisions_excluded": 3142,
+    "note": "Probabilities are measured only when the commitment expires. Initial weights are queried on the same latest-policy observations/context, not separate initial-policy trajectories."
+  },
+  "latest_expert_decisions": {
+    "chronos": 3600,
+    "galactus": 0,
+    "ripple": 0,
+    "fusion": 0
+  },
+  "summaries": {
+    "selector_latest": {
+      "matches": 8,
+      "wins": 5,
+      "draws": 1,
+      "losses": 2,
+      "goals_for": 10,
+      "goals_against": 3,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 2
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 1
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_chronos": {
+      "matches": 8,
+      "wins": 5,
+      "draws": 2,
+      "losses": 1,
+      "goals_for": 11,
+      "goals_against": 3,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 2
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 1
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_galactus": {
+      "matches": 8,
+      "wins": 5,
+      "draws": 2,
+      "losses": 1,
+      "goals_for": 8,
+      "goals_against": 2,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 2
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        }
+      }
+    },
+    "fixed_ripple": {
+      "matches": 8,
+      "wins": 1,
+      "draws": 0,
+      "losses": 7,
+      "goals_for": 3,
+      "goals_against": 20,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 12
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 2
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 2,
+          "goals_against": 5
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 1
+        }
+      }
+    },
+    "fixed_fusion": {
+      "matches": 8,
+      "wins": 5,
+      "draws": 2,
+      "losses": 1,
+      "goals_for": 9,
+      "goals_against": 1,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 0,
+          "goals_against": 1
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 4,
+          "goals_against": 0
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 0
+        }
+      }
+    },
+    "galactus_reference_body": {
+      "matches": 8,
+      "wins": 5,
+      "draws": 1,
+      "losses": 2,
+      "goals_for": 11,
+      "goals_against": 5,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 5
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 1,
+          "goals_against": 0
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 4,
+          "goals_against": 0
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 0
+        }
+      }
+    },
+    "ripple_reference_body": {
+      "matches": 8,
+      "wins": 0,
+      "draws": 1,
+      "losses": 7,
+      "goals_for": 1,
+      "goals_against": 21,
+      "by_opponent": {
+        "chronos": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 11
+        },
+        "galactus": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 5
+        },
+        "nexto": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 2
+        },
+        "ripple": {
+          "matches": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 0,
+          "goals_against": 3
+        }
+      }
+    }
+  },
+  "paired_vs_fixed_chronos_same_body": {
+    "selector_latest": {
+      "blocks": 4,
+      "trials": 8,
+      "mean_delta": -0.125,
+      "standard_error": 0.125,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": -0.5,
+        "nexto": 0.0,
+        "ripple": 0.0
+      }
+    },
+    "fixed_galactus": {
+      "blocks": 4,
+      "trials": 8,
+      "mean_delta": 0.0,
+      "standard_error": 0.2041241452319315,
+      "by_opponent_delta": {
+        "chronos": -0.5,
+        "galactus": 0.0,
+        "nexto": 0.5,
+        "ripple": 0.0
+      }
+    },
+    "fixed_ripple": {
+      "blocks": 4,
+      "trials": 8,
+      "mean_delta": -1.25,
+      "standard_error": 0.3227486121839514,
+      "by_opponent_delta": {
+        "chronos": -2.0,
+        "galactus": -0.5,
+        "nexto": -1.5,
+        "ripple": -1.0
+      }
+    },
+    "fixed_fusion": {
+      "blocks": 4,
+      "trials": 8,
+      "mean_delta": 0.0,
+      "standard_error": 0.2041241452319315,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": 0.0,
+        "nexto": 0.5,
+        "ripple": -0.5
+      }
+    }
+  },
+  "reference_body_effects": {
+    "galactus_reference_body": {
+      "reference_body": "octane",
+      "training_body": "breakout",
+      "statistics": {
+        "blocks": 4,
+        "trials": 8,
+        "mean_delta": -0.125,
+        "standard_error": 0.5153882032022076,
+        "by_opponent_delta": {
+          "chronos": -1.5,
+          "galactus": 1.0,
+          "nexto": 0.0,
+          "ripple": 0.0
+        }
+      }
+    },
+    "ripple_reference_body": {
+      "reference_body": "octane",
+      "training_body": "breakout",
+      "statistics": {
+        "blocks": 4,
+        "trials": 8,
+        "mean_delta": -0.125,
+        "standard_error": 0.3145764348029479,
+        "by_opponent_delta": {
+          "chronos": 0.0,
+          "galactus": 0.0,
+          "nexto": 0.5,
+          "ripple": -1.0
+        }
+      }
+    }
+  },
+  "trials": {
+    "selector_latest": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 44,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 48,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 53,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 37,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 87,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 47,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      }
+    ],
+    "fixed_chronos": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 44,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 48,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 12,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 53,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 37,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 87,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 47,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      }
+    ],
+    "fixed_galactus": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 160,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 115,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 1,
+        "outcome": 0,
+        "touches": 49,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 30,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 508,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 67,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 24,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 29,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      }
+    ],
+    "fixed_ripple": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 6,
+        "outcome": -1,
+        "touches": 0,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 6,
+        "outcome": -1,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 55,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 102,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 3,
+        "outcome": -1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 107,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      }
+    ],
+    "fixed_fusion": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 26,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 38,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 17,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 41,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 48,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 51,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 32,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "breakout"
+      }
+    ],
+    "galactus_reference_body": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 15,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 3,
+        "outcome": -1,
+        "touches": 15,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 114,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 124,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 72,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 40,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 33,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 3,
+        "goals_against": 0,
+        "outcome": 1,
+        "touches": 45,
+        "timeout": false,
+        "practice_success": true,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "octane"
+      }
+    ],
+    "ripple_reference_body": [
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 5,
+        "outcome": -1,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "chronos",
+        "scenario": "match",
+        "seed": 331000001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 6,
+        "outcome": -1,
+        "touches": 6,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "4b4cb5aa5da1296fcf5b51a27365a0a3cd1d91898180ddbb19891e1647ca543f",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 3,
+        "outcome": -1,
+        "touches": 3,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "galactus",
+        "scenario": "match",
+        "seed": 331100001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 4,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 1,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 16,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "nexto",
+        "scenario": "match",
+        "seed": 331200001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "outcome": 0,
+        "touches": 136,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "cddcd82779ca8e6466042a3236990bcf49342ee671eba234f01e0c5f83d2c22e",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 0,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 1,
+        "outcome": -1,
+        "touches": 14,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "octane"
+      },
+      {
+        "opponent": "ripple",
+        "scenario": "match",
+        "seed": 331300001,
+        "side": 1,
+        "seconds": 30.0,
+        "goals_for": 0,
+        "goals_against": 2,
+        "outcome": -1,
+        "touches": 2,
+        "timeout": false,
+        "practice_success": false,
+        "initial_observation_sha256": "8f67e4b489c837cbc0ed80d4aac5aaff703243cd4486fc7f8e16c691e1dbced0",
+        "learner_hitbox": "octane"
+      }
+    ]
+  },
+  "provenance": {
+    "source_sha256": "e41a7742c5c28e47e074b30f96de23d0bfa19b7a4e2456fb1a92dadfe78f5960",
+    "files": {
+      "configs/bot_candidates_v1.json": "0cf103196fd3a8fb965c8d14a37fb0074f05327b9b8b56c7f486c875bb351f3a",
+      "configs/chronos.json": "6ac601ad5f3743a33cb7936c9da1d373dbfa2ca959aca724255edfb08ab22074",
+      "configs/copy.json": "cb3e7dfbc38c1bf5fd245d0962211448a8415a5754a56a51c2ce30fd04eb6f69",
+      "configs/diverse.json": "3d8dc066c05bc5d2aced9fa47cc483117eac18a57ca365816ad3d328133ad462",
+      "configs/laptop.json": "7751ae20e665866c01861b93347eecc40fb1dc203382d9c2bf4e562940172636",
+      "configs/selector_research_v1.json": "7e2160a519a1d2f6c0a75202f1efc89dc4c882c9d684303e8444c4255975f07e",
+      "nova/__init__.py": "90b35d8dbf2ad4f17e9b6557068f989ab2b478c1547d8372b3493f4d5bcd987c",
+      "nova/chronos.py": "95f4097e8fd1e1579120425f10e79b6a153309fc97b139bdf715585a14c9465e",
+      "nova/chronos_fusion.py": "bd4048bb561052a6ff8e756925ab2c74d029f3746e2987d2177bc10876de338a",
+      "nova/chronos_guard.py": "1ffe94702ce00b11306d504bb86e8b0e160c8f826ffc753307487cc173a6e1f9",
+      "nova/chronos_league.py": "1916e73ad222df9bd215e860828d43c42e1bc09b704d8af976d3c6bc348db17e",
+      "nova/chronos_live.py": "389070ac00c068e35ab1c83b048853a36b1f7de8fc41c6c52f80d6f9c7710935",
+      "nova/chronos_tools.py": "e3beec36decd56bceac4e99e9ff415fe5ad4ea524f89fa42887f6025c83ce8c8",
+      "nova/chronos_training.py": "70eb8d1010ee72f41cd06437094cfcef481070b55ecff9f1e21b99d45e7a5ce0",
+      "nova/chronos_v4.py": "1a4fb4acab7e97a1d0cd8f30162c71dfcc454a85b098871febac5bb2856d06ee",
+      "nova/core.py": "5b447e2e1bc06d24121b0f254bacb4f5b9029f1b734562ebaede1015adde1393",
+      "nova/data.py": "e0f3f9d586ccb58ba3e0fc1471014e3840b42670d904a2e2324ca7b1037a93e6",
+      "nova/diagnostics.py": "75e8e4ecea31a9a813de58547e6784f42c94044c0707504af59f8b6b70eeee55",
+      "nova/environment.py": "f473074e3cf6be71484cd0e2a0910a71db51ef39d83ea78a2b46b009f76d27c6",
+      "nova/evaluation.py": "e860751bcaf401f1e5acb2f71ef8c888339470fe5fb0912042cf236292ea5ca7",
+      "nova/fusion_selection.py": "cbfa964fa9f0ea3f3d76a16a292dda97997dcd8d50cabc97779fb5df4052cfb4",
+      "nova/fusion_teacher.py": "164306baeadf7e3230ec743a88680adb42639c9a2c11a862bfe3016e37e91c33",
+      "nova/giga_teachers.py": "13b69d57b37c1fb8ea8d4d32dde5e6757988b6253f21ae36f1973f5e65091794",
+      "nova/imitation.py": "cb6c067a172f9324d80fc59caf9c444d7ea0d66bbf2f6ea3aa9b618254ef7e25",
+      "nova/models.py": "102a8066b43f7e132a481afba917d67a2c6385426f44f54e6b176c99464c95bf",
+      "nova/objectives.py": "191d3cd19ee017c427a0d6d68292a6042b18b43e4b8cfece1a27d4160c7cabf9",
+      "nova/packaging.py": "4d858ff8d2eb0fb1b8acaa9aac5466d5fcfd524cae00aa514ffd94e1c17868e3",
+      "nova/reporting.py": "03112e8d364bee652b42d6e9d213d70629ea8d0c5e3f8462e2d3dbaa20b4479f",
+      "nova/research.py": "0d3025d1ab77abf050722945ac89f2fd3269926d1abc1f46e941aff3f7ace753",
+      "nova/scenarios.py": "5319ddab0b88383a94b7124180068b47641ebb4384d997642f78b56d66b9a9da",
+      "nova/selector_diagnostics.py": "62d08b888817ab32a945a4fbd0c41a8f1820d52ab8ccb662ed5c85c06ba4db75",
+      "nova/teachers.py": "858923db82a4aa0997b0a6eb3d02ad01e6601d68fa44afe4e2f1c093fe9fa8f3",
+      "nova/tracking.py": "4f7fbf54b19a45dc2983afc9d3b3a985122978e3be0b0b389014b42b83f385af",
+      "nova/training.py": "059287bcc36c98bfe0b440d129257e6fddfa8ae68e33521516dabc8436581653",
+      "nova/triad.py": "3f5678c22816c4788ba182fd51ffba45466d64618d2cdf1663b08993048cfc60",
+      "nova/triad_boot.py": "b01530d5209c9352896ff3b510343c6a1cfb9623e549bbf3e58b769d25814e41",
+      "nova/triad_selector.py": "b3eebd7990a122befd59bfbc57c22382251fca902517ff53f3789c5f84e8c47c",
+      "nova/viewer.py": "19c82e0819a7258cf6e20f172c33bcc0788cff99b8fd17acdeb3311d69f6b2bf",
+      "requirements.txt": "569f6e405a8583ad0ab8558345d8750e3ca6df6ef95d391beafe0fb7f35003d8",
+      "run.py": "b8fddeb528f9cc036614ab66f92932bb9a8a02d37bbb5c9b05efb5335f530f0a",
+      "teachers.lock.json": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b"
+    },
+    "versions": {
+      "torch": "2.9.1+cpu",
+      "numpy": "1.26.4",
+      "RocketSim": "2.2.1",
+      "rlgym": "2.0.1",
+      "rlgym-tools": "2.6.5",
+      "stable-baselines3": "2.9.2",
+      "onnxruntime": "1.23.2"
+    },
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "teacher_lock_sha256": "beef1a764d4cafc2de09af51e958e844fd01d7200f96c7c23f6e7add504bad3b",
+    "selector_training": {
+      "learning_rate": 0.0001,
+      "n_steps": 512,
+      "batch_size": 256,
+      "n_epochs": 4,
+      "gae_lambda": 0.97,
+      "clip_range": 0.1,
+      "ent_coef": 0.003,
+      "target_kl": 0.02,
+      "gamma": 0.999,
+      "workers": 1,
+      "device": "cpu",
+      "threads": 1,
+      "net_arch": {
+        "pi": [
+          128,
+          128
+        ],
+        "vf": [
+          128,
+          128
+        ]
+      }
+    },
+    "objective": {
+      "spec": {
+        "version": "goal-potential-v1",
+        "goal": 10.0,
+        "field": 0.35,
+        "distance": 0.1
+      },
+      "gamma": 0.999,
+      "decision_ticks": 8,
+      "equation": "goal*outcome + gamma*Phi(next) - Phi(old)",
+      "potential": "field*team_relative_ball_y/5120 - distance*min(car_ball_distance,12000)/6000",
+      "terminal_potential": 0,
+      "timeout_potential": "retained for value bootstrap",
+      "sha256": "e39cd78ffe12304bc3dec8959431cbebb6c6740dbb589a95113db70a94e2d476"
+    },
+    "limitations": "Seeded starts and policy RNG do not guarantee bitwise RocketSim trajectories. Automatic demolition respawns use native randomness without an exposed global seed. Resume restores policy/optimizer/timesteps, not a mid-rollout physics/RNG snapshot. Repeat independent seeds and training seeds before claiming an improvement."
+  },
+  "wall_seconds": 516.7350000000006,
+  "limitations": "Seeded starts and policy RNG do not guarantee bitwise RocketSim trajectories. Automatic demolition respawns use native randomness without an exposed global seed. Resume restores policy/optimizer/timesteps, not a mid-rollout physics/RNG snapshot. Repeat independent seeds and training seeds before claiming an improvement. Exploratory short matches from kickoffs; not a promotion test. All expert conditions use the common 8-tick/7+1-delay adapter and Ripple held-queue approximation. Body comparisons intentionally change physics and do not validate native timing or full transfer fidelity.",
+  "protected_run_files_unchanged": true
+}

@@ -1,0 +1,2132 @@
+{
+  "ranked_duels": {
+    "count": 228,
+    "unique_by_sha256": 212,
+    "duplicate_files": 16,
+    "below_100kb": 7,
+    "plausible_header_count": 228,
+    "files": [
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/04a9bc57-c52f-44bf-9db1-bc8d5fc6c612.replay",
+        "sha256": "173201afe66c873cbbd8f777bf858f1de62217e3d94f1afee4d456656c07497e",
+        "size": 680018,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/05ad7322-d543-4484-947c-868f19d89508.replay",
+        "sha256": "44464dc6600b0674dbdb2cf0b07089fa54814652cc644c93733e4833ea2b0436",
+        "size": 413115,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/07e4e369-39ea-4e81-aea2-2197fed90c33.replay",
+        "sha256": "a31866b016d9b73f55f4352d50183d2d3ce642f2dc62ebc9774d1480282c4205",
+        "size": 78674,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/07ee166c-94dd-4d08-a4fb-593b44c3ee56.replay",
+        "sha256": "b0419a8bbbb08d828eacd65b50b14176c2f0f6eac974d4da0acebb7b84eea1fb",
+        "size": 870122,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/098357fd-596c-4349-98d6-9c7a4117ccc6.replay",
+        "sha256": "9303f4d0cc27f211d7681db767227b99732e9952aa820808a392c73f045aea64",
+        "size": 942492,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/0ad11de4-e75b-43ef-9163-dab343129b4a.replay",
+        "sha256": "bf6fc523992d125da31247b0b7f16c66eaf3377dca1eaecbdaa8c0b8a6f1673b",
+        "size": 968544,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/0becc1cd-7795-4448-ac70-04ba716b1154.replay",
+        "sha256": "cf3e3ea6d94ac1d9a4647f44751dbac2c40f079839ff6b0bee13a39e99086848",
+        "size": 870001,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/0c67ab89-5ce8-43a1-b279-7fc8dda88942.replay",
+        "sha256": "9b6849e35d2e1a4ce4235f76b6ce6637b0583fafcfadf2cfa8924a05a84741a1",
+        "size": 304662,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/0d1f817c-808c-4753-ac7b-54a3e5874d43.replay",
+        "sha256": "6c70fdc6e41b77c27abf87434f759f61a5b14cc447ec828578e1b681c97e2dcf",
+        "size": 696146,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/0df222bf-97d1-4443-88f7-3c5644c4736b.replay",
+        "sha256": "485530dc20c9d5c23bea4c9f53d696c17b078ea8921a0de5ca00cc65c66661c3",
+        "size": 398550,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/10f8db96-afe0-4bd6-b7cc-f1f09fd54010.replay",
+        "sha256": "bab044c95756f72d7303adcf85835bfc2aa8b512c49f185598130ac5c948bf97",
+        "size": 908657,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/12d7fa52-3054-405d-ae2d-6b15fdf01e8d.replay",
+        "sha256": "42206aea3bc7e207cd1eda4472f155aa6436306d5e25fe8dbac1ddf858c69eae",
+        "size": 917597,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/13310636-3ac1-450a-b796-44b34418380b.replay",
+        "sha256": "9b3533a36ac6cd1cdd05288a82b88c1e3f5c1556c79b958cec230f37122a015d",
+        "size": 853876,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1462bc96-2991-4b15-bd30-02d5ffb8c546.replay",
+        "sha256": "9504d87a02f062cb5b3f44564aacf3ddc0055f4c4213a2f091926b8c58815233",
+        "size": 768071,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/164580c2-45c5-465d-b877-622ea348d2f7.replay",
+        "sha256": "1dc2ea733d6d5f9c075c37fff58e44279905c87435493e4c97dc0fb4f63286e5",
+        "size": 462212,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/16d30673-cfe7-455f-97b1-5e7553316c4f.replay",
+        "sha256": "1151f9879e603053b2fbe63ed7ad1623ca00e892dea4d3f972b7475d14170127",
+        "size": 553172,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1810efe9-2824-49f7-8ba7-d3740d77d0e6.replay",
+        "sha256": "d2fdb84c16942eb8211b07cf192d771154a106be7f291d79962020694d242bd6",
+        "size": 867654,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/191f3078-78be-4776-838b-a2b9ff219b0a.replay",
+        "sha256": "5439fbfad1d076b64ac26d42c50f0ed9a64a440875f84e2323511f0fab0ea205",
+        "size": 316732,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1926abf8-b668-4de3-bb89-58e433dc6b97.replay",
+        "sha256": "6a4b19477051f8bf6702095bd2d3a8cceab789144a9263e05ed0bda9ac829db5",
+        "size": 422835,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1933049f-63a0-441b-8a44-00639cdb96f2.replay",
+        "sha256": "eccbe0d72f2dadc908ab29fa284b2ec3d3261c772ac4ca505e013fe345e47728",
+        "size": 876283,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/19d133bf-092b-4226-bbfe-d8cfd6c60fb1.replay",
+        "sha256": "0a9c502a55ecf8642571fb035eae18bd16e09346ffa3b364dd8e42c1a394cdf7",
+        "size": 362963,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1b0ef7e7-90a4-4a61-b151-e2171b6b8188.replay",
+        "sha256": "01bf3a94197e1996201aa9de89c679484502080e248308bb682cc6455478c051",
+        "size": 872595,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1b41a8d5-4294-4c2f-9d27-cd28f496b4aa.replay",
+        "sha256": "2ea61d637837aebb0174553fe9c57b3ab91e6fcf950bfb88c8e6be3b29b1216b",
+        "size": 1169815,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1ba22b00-e748-4925-af77-d3d65c4249a2.replay",
+        "sha256": "bb10b8cf057181325345a9e5d98e63d6697bf9209692069aab22fcc8567a299e",
+        "size": 255879,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1ca376de-c68e-4068-ba3d-764bc874a978.replay",
+        "sha256": "020969d6daa3ea164be743c7d9c04295f3b166a18e8814c33b4a815816e23f17",
+        "size": 444562,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1da16087-d0de-4a72-b332-1267b5669fed.replay",
+        "sha256": "09abd43e2d1170539e47847c33576f5472c2455be81dbf1b4eb0bf649ec6a625",
+        "size": 872267,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1db7c624-115a-45eb-a18a-db440fa90569.replay",
+        "sha256": "6bb2a293d818aedd5b09c96c5522c3a01ab6c0d8711cba93f68421f54c1f24e3",
+        "size": 825648,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1e4c1936-786f-4a20-894c-08790ce120c2.replay",
+        "sha256": "de8a01e367ea5ea108d335458fe555f41435e1918e75fc1f9a8dfa3f72705171",
+        "size": 930171,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1f2c5bf6-c343-4a10-b5ad-0956538fc9bf.replay",
+        "sha256": "cae7290d05170f1db6563bf62c364afdbf68af6a7b1ee3ea4772d68ad3825dc8",
+        "size": 960070,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/1f2ea63a-1132-4cc0-9e18-fa0ac257257c.replay",
+        "sha256": "a085927efeafedaf5b54430e280a043bd362674720294c8eb11367cdf47f1474",
+        "size": 798860,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/2213b9ec-4b1f-4d31-846f-24e9612696d8.replay",
+        "sha256": "e2a9b2a738dbda9042d37fa8d7119f14030859d345a62b5d5da1172f90f2f169",
+        "size": 751518,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/244e93bb-a6f7-462d-a590-91ff78268d2d.replay",
+        "sha256": "9c6063c9689a79a2296b5b1517405687e7a3bccc2f34ca33ca812e95f72edd06",
+        "size": 960985,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/252d2cf3-4757-43b5-a9e5-14ceb2c82ea3.replay",
+        "sha256": "bea25edab5b523e8aed926ae8d949f1c53ae5c0c337b23b23687cb0e938204fa",
+        "size": 292777,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/25b43dc0-6d7d-44e8-ad43-04a87885b86c.replay",
+        "sha256": "47aeef864866ae82ef255b20d0ca10b0168a97a45a0e2208d050034e6b2947b8",
+        "size": 742442,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/26bc61e1-7661-4815-a5fd-1d36d203f6b8.replay",
+        "sha256": "a882d626aee8ebd153f83d487b945bba8ef68a0a9e151385feea533e14f7621b",
+        "size": 565475,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/271650af-8cdb-477e-af04-6bb225b489ec.replay",
+        "sha256": "18ed93a3325c2f8d97766727f26d254b92b6d1e9e9da5b4e99bc470c076f110b",
+        "size": 627143,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/27507f4d-98a5-4699-b60a-195d7a0d41b3.replay",
+        "sha256": "8c9f154980d044043597054960ff7eb5eb8b50b0d8444567a0e3ba9cb7abd832",
+        "size": 674506,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/27e10e0a-ef61-44d0-bff7-c6a352469b02.replay",
+        "sha256": "e1a7f07237aa2f6571b4c8f102a919e888e50cb51fb2cf074ccda39068e53677",
+        "size": 477500,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/2acec177-a1d1-4ce9-a959-ec5d38d6b7f6.replay",
+        "sha256": "e9a8ec0135cfe7faa77df10f9e13311c3b6f2174fccfb2e4db9e65ac9df0003d",
+        "size": 858699,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/2b51074e-5a6c-4821-be1c-c7c5f7bf8b89.replay",
+        "sha256": "a2442ab4b2cf2a75df951676619eb5bb10c5b7a8ecbf50ba3f109404f8ef15ad",
+        "size": 842102,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/2cab15fa-bd55-45ce-9508-323f3ef4185d.replay",
+        "sha256": "4555c0fff959dd243e57ad026251040af1024f2240d23bc7d4d764e3e65a335d",
+        "size": 743370,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/2fb2dc9d-7d2b-47e3-a526-cdbbe8423e2a.replay",
+        "sha256": "9dbdeb6db284ade113ec13ad612f03a5c43844f0c979f83e72d7f1226ece2406",
+        "size": 463204,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/308f874f-6386-428a-999d-647245d51ba4.replay",
+        "sha256": "40444a4666fa524fbe38b05326c66ee9b366032b11fdd830580b3d819f4c262f",
+        "size": 306484,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/31a60fa7-fc8e-4489-834b-4f6056adcc4e.replay",
+        "sha256": "8ba68435e598620c93a0fc59e0dd434dfb981e30af5b353c5a57c84a29032c3e",
+        "size": 531655,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/340ed455-e087-4f6f-bb1b-52fbdafba03d.replay",
+        "sha256": "9303f4d0cc27f211d7681db767227b99732e9952aa820808a392c73f045aea64",
+        "size": 942492,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/35fb335b-79ee-40c6-81d4-c09d7de0b507.replay",
+        "sha256": "64a332b5a7380995c57a116f001cf5c85872ac5d21f1fccbd5c7fc5a8e53fe94",
+        "size": 926350,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/36c529de-ffe6-4e9c-b74b-90f7b9a31c8c.replay",
+        "sha256": "7178e5d1630bcd97135a33f1e7a3e9df3ff975399e07e7dec049c79d8ef882ab",
+        "size": 475183,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/37e125d9-e78d-4f60-b71c-f2fbe4a3fae8.replay",
+        "sha256": "7a183de3656e1e96b7c4029ca7cb60c84131f6a842b29a0e1092e7a92c11d7f5",
+        "size": 317994,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/38041d65-d605-4917-94aa-9c5bb408200f.replay",
+        "sha256": "0046412b43778ea424f068174ab20d2bba44ba4c5e87019148d6bc2cafd993a9",
+        "size": 291042,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/383520f9-236f-4a22-a3eb-5f36fdf13ad8.replay",
+        "sha256": "5481255cfcdcdfa60bd5359bb2a46ae6327fc0c3c708fe439c5ca9970f774f09",
+        "size": 784150,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3a849b09-575b-4c5f-82b5-0f27c22e29b3.replay",
+        "sha256": "234ed6a3cdd7f9182608c81acc2539e07b2d88f38a5191411d27ac82f30463de",
+        "size": 944574,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3c7dbd33-f124-4bbd-8398-a5c5b570d865.replay",
+        "sha256": "27c431c0147117ddd1dd299c4639f90ff483ae4d0d5692de35d5c4ac7fcea2f7",
+        "size": 664540,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3cbaa679-6c91-451d-b40c-85a55e9fc240.replay",
+        "sha256": "e11b066d675ab913b8ef831ecede9d858e34ed6430b99e4016ccf2b9477fd429",
+        "size": 682473,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3f865d38-04db-4ea4-a25c-0a7b9e643d9a.replay",
+        "sha256": "bab044c95756f72d7303adcf85835bfc2aa8b512c49f185598130ac5c948bf97",
+        "size": 908657,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3f9bd4c1-069f-4a97-93e1-0fa4c7f88787.replay",
+        "sha256": "849cf2bfe23078d74cad7ce606e780bf632a21ba2562568ae4397d5276aa8b2a",
+        "size": 933553,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3fdd7b32-da1e-458a-b747-058862271fc8.replay",
+        "sha256": "b96ef7f5dcebc895226263c347a73062d1d504975082d8d1996ea6b69c6f74cf",
+        "size": 813337,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/3fe489cc-587a-4590-99d7-1ba395e464a5.replay",
+        "sha256": "f6c767b6d5d191a6cbcaa874b792526c19080e5704bf17e274d8d01a3803c164",
+        "size": 987170,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4032deb5-6ba5-4020-8412-9fdba2ca1c4a.replay",
+        "sha256": "e38c01aaa060e21becdaa72a0983a7a92b9108abdcca84a06bd69ab5078c15e7",
+        "size": 841030,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/41424bda-c87a-435e-80df-2a3f5786ad7b.replay",
+        "sha256": "bdaeababbabb8784330aca7d7743026abbcbe35aa40b8aa367fb09bcb63db739",
+        "size": 790753,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/41556b1f-084c-49c3-9410-ca4bfb0854ab.replay",
+        "sha256": "eed4fea23784daca6e6728bac11434b950c080f107cdd3dd401570ec7a4becb3",
+        "size": 520010,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/43722d00-5e63-4c86-81a2-f32a0d7004ca.replay",
+        "sha256": "a5e30294c0d4c26ccd00e2cf6f44d25fd89ab2e77e20935b5fb1dcf06c13928c",
+        "size": 881649,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4543b16b-b75d-4784-a596-86250cb5840c.replay",
+        "sha256": "8f9d6baebeccbbd89a1a788e6d2274c3bb1a0d60382f1929bc160aaefb00e371",
+        "size": 977173,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/47dde817-5f38-49c1-b847-40de6d97cdaa.replay",
+        "sha256": "7e236788a1a35fbe2cfb7a2381019819118d215b6b576fdee3f170d0e9632634",
+        "size": 305143,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/484523e6-7aed-4b9f-8e62-cc208c22b504.replay",
+        "sha256": "056cb11f381b9a19f483c0e9ac80a5749e7e703ec51499a7c213334414d1a972",
+        "size": 944956,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4a13031c-e942-4874-9579-19a28f2626ef.replay",
+        "sha256": "a11e446b239106d25e7d2792e8e62a13bfb224ae0510c13dfc53bae00ddb940c",
+        "size": 961531,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4a1a9516-cc65-4337-85b9-dc76eab1433c.replay",
+        "sha256": "1b7008de820961291dc5f36491ccbf19cbfe6f08f861f6760ad2b032b7aa1f93",
+        "size": 671381,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4b00ac88-490b-4d58-9773-4bbb29495769.replay",
+        "sha256": "27c431c0147117ddd1dd299c4639f90ff483ae4d0d5692de35d5c4ac7fcea2f7",
+        "size": 664540,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4b41b442-eb7d-4216-a38f-16221c0de9be.replay",
+        "sha256": "52163404ac6b5e869a2f21b248232819f2927dc02285709caf280566d8239323",
+        "size": 1286169,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4b860e05-de72-4de2-839c-ba8ee5117015.replay",
+        "sha256": "42dc0def93a2173c899fab50a0167636955e19189419fbe8ca9dfc27da91f41c",
+        "size": 886965,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4e36fb2a-b6a9-492f-87df-e8797ad45f37.replay",
+        "sha256": "5466ac4e4d98e55bc399e2e746dcbe4b82934c6630083b23ff633b78e5b51e17",
+        "size": 319307,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4e47d6d1-d9ef-480f-8fc4-49e4cdb49d00.replay",
+        "sha256": "575b5ba327f0c809020e116a9b49c83b6999acfd1693c16d7f990f6845e196b0",
+        "size": 956742,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/4ebf2c3a-217f-492e-a3ab-9c12ee9fb4ff.replay",
+        "sha256": "9023b249e002694b2b396774cf55cf538cea9d8b4d8b1700ce7d8945e57ac2bf",
+        "size": 954815,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/50ae4d59-c89d-4679-aea1-35745857a9a6.replay",
+        "sha256": "7e236788a1a35fbe2cfb7a2381019819118d215b6b576fdee3f170d0e9632634",
+        "size": 305143,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/529e9c58-3646-404c-8c4d-cb94d1463030.replay",
+        "sha256": "558f45270caa3988dd75dab80cbe0c100a4d32e2954b515895e5ee3238f05b61",
+        "size": 885801,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/52ccf4df-8557-4a8c-b31e-74d4dc375c82.replay",
+        "sha256": "67a2dda70cf824e7ebff902244f7a74098662988882fd5eb799f96e96b9cbecb",
+        "size": 764092,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/53ec2730-dd01-4299-9836-7be0bd7352de.replay",
+        "sha256": "9303f4d0cc27f211d7681db767227b99732e9952aa820808a392c73f045aea64",
+        "size": 942492,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5419e56e-9d6e-435b-b33a-b9a938325557.replay",
+        "sha256": "02881e64b08e0878137d9681a7d1583482947b56d53989e2bc1e5bd6a4b0898a",
+        "size": 837013,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/547b7ec0-29b9-4dcc-995a-480b887f995a.replay",
+        "sha256": "31aaa8687247f5589d5060dab883d3bac9b011a4799455171825cce578fc5f2c",
+        "size": 1009578,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5539e706-2704-4464-bb64-052aa00c31c2.replay",
+        "sha256": "29de5037e3a238dd71ee974ff11b07b01f4f06d33b645b2c27bd74865faa2b4f",
+        "size": 785816,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/55dda6a5-6219-4096-8928-9e43d9619e64.replay",
+        "sha256": "2658b7d7b15c7a5b51d48f895144feffbb82b49731b058dbee72163b18fcefbe",
+        "size": 72797,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5640ea2d-70fd-4f69-9c9f-117ca2aeefab.replay",
+        "sha256": "282fcba8a4284f36d3e9d5f5318a4b064df95455fa9b2beb54bdc934e402b01a",
+        "size": 883595,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/573706c2-fb6b-42fc-9d47-db0054d9bd94.replay",
+        "sha256": "ef5cb9f7f8697dcf18797aa140dcdabb959195773ef6018a576f77288340114a",
+        "size": 631639,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/57a98694-523e-43f2-a85e-da01c2500800.replay",
+        "sha256": "586ae0787d29b3813713c7d283a5f6ba564664350628d4fa274c01aa44a8487c",
+        "size": 955976,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/57b54918-f59b-4a9f-a9e5-9e877a230223.replay",
+        "sha256": "57ee0f7e576b9fe3a209c5f16183041c3b7539257ba24f8f072806545c307857",
+        "size": 650433,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/58ccfd19-47c3-4216-bc09-e916d5bc07a0.replay",
+        "sha256": "20e1326ace8b6de3e2ba98363731890244751bca4353683216c26dc66e469227",
+        "size": 49829,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/59f96c02-712d-4ba0-86d4-74ba83dd8a96.replay",
+        "sha256": "3988ca0b190bcce75f75f9bb63eb2aab13e5e9c1eb0bbd763dc01e4a6627916b",
+        "size": 1037659,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5b42fac5-6857-497e-861d-d7c41635a697.replay",
+        "sha256": "aeea66703e92abb936cfbc68d32228a723f3714989cbd9696a0c2328e8dd4455",
+        "size": 362250,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5cd278ab-40aa-4127-b57c-25e3d88174f3.replay",
+        "sha256": "86d95c1a7c3c4addc8e360022f6d37736436e9e6168adcd4e47f51c3a04d554f",
+        "size": 365810,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5ce046e0-50e6-4901-bb5d-bafafb46c847.replay",
+        "sha256": "29ea686e3e1a6fc67eedd4e660591d79b1e16f6b2ac98110060790cc01b97de5",
+        "size": 1008288,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5cedffdc-2e31-4260-b6df-0069fb639b10.replay",
+        "sha256": "ba1b4c5a5a5d71cbd5f354dc354f054b326df5d71b73bc5189538a819679cbdc",
+        "size": 428520,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5de31fdc-984f-4c4d-9e7c-4ed8306e6039.replay",
+        "sha256": "fdc060377a485bb318a42a4a703e87dcc275c32655095fd2cec905865d45c140",
+        "size": 738321,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5eb868f8-b8c6-43b7-999f-a08ba8ab72a0.replay",
+        "sha256": "b86560faa780b6c14c8cdb27fe1c035a15b79e9d9837ee24a546376f1d6640c1",
+        "size": 603822,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5ee543c0-7c97-4f0c-a97e-a97aae29ad9b.replay",
+        "sha256": "496f84e698df1e8f1f8d539196edb0d276c0cff82a846caf8dfaab1a293caaaa",
+        "size": 919263,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5f279a44-5e5e-44f1-a005-0aac1f95c944.replay",
+        "sha256": "7e236788a1a35fbe2cfb7a2381019819118d215b6b576fdee3f170d0e9632634",
+        "size": 305143,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/5fba8a52-ae89-4b34-978a-8d0b7575f6a2.replay",
+        "sha256": "14741d6c265c1708917ad0482acca27ffafebaecbe07a3297edabc421d5a3d71",
+        "size": 487902,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/60c02fd7-f44b-4633-bcaf-3637c71908b9.replay",
+        "sha256": "54575c7ba8449bd26a2934071e8859a752757fc892b2892ad9f6ce88b7dbadd6",
+        "size": 774719,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/60f1652d-fc1c-41c0-a1c2-45a196535216.replay",
+        "sha256": "130035b958ec21703d1052e6b1ea6a423ecdd581149e05cd2c076e411f062e11",
+        "size": 536595,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/625e0da1-64fc-41c5-915f-d29818daf810.replay",
+        "sha256": "f44bb7bf5b872d323faf4d98f2b7071de6208653a00384856e178a564fb809ca",
+        "size": 1040316,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6378f6a4-9110-42c7-902a-02ea37639f35.replay",
+        "sha256": "fcad1f266720770f5a7d546bf71669337b9359cc68f8a02b62f63d7170b2086f",
+        "size": 452710,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/64ad9620-bd6a-4e7b-a8e6-cc08097f5342.replay",
+        "sha256": "295909fb40144176d60b19220d1c158723ef5b1a4d5fe89635f4a978a91a3c96",
+        "size": 974904,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/64dd6e8e-fa54-40f2-83e0-d61668f3962c.replay",
+        "sha256": "33add582d288935dade5419fcb7cdeccd323ec9b9e8e1f286facd85bc69276fd",
+        "size": 597465,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/64ebb419-6801-42d9-a1e1-51767189ba6e.replay",
+        "sha256": "c2cf0177e301d7c435653d236a2fa0d4b4d1e34a4c7fbe55e6705c0ef4fd83b6",
+        "size": 872195,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/65580080-3f75-4807-8f18-a9edd98ae20c.replay",
+        "sha256": "0cc24f0d57f511beabba076ad6c7b9c4c5c4fc3df8c76ba7baa515d813d75eb8",
+        "size": 825959,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/65a31191-5316-44b6-a589-08dd138f2e24.replay",
+        "sha256": "16c72e82a2d86bcf6287046fd98cd85525e8be565c0794cd5bfc2a7fcb4ed4c8",
+        "size": 322021,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/672013cd-0753-42af-bf83-3a13f1f7a919.replay",
+        "sha256": "282fcba8a4284f36d3e9d5f5318a4b064df95455fa9b2beb54bdc934e402b01a",
+        "size": 883595,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/679ec167-92fb-4e4c-a04b-919042c995b6.replay",
+        "sha256": "cb1e5132f137e087434ae8b6ac1c6de30691d0f3a1e36136ed9b2d8540edd5d3",
+        "size": 858053,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/67b407c9-8914-4c6e-a92b-3facac324d92.replay",
+        "sha256": "320b8c2aa208b2a0a401c8108edba1a8a3f5054248cb9ff0897c777643895ff4",
+        "size": 567792,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6be07cd7-dd8c-4f14-96e7-3de6a6574b54.replay",
+        "sha256": "57c453eebbedfcbf56ec6064a9a1e883aa84317d1391cf7dbef090269bd7ca4e",
+        "size": 858104,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6d6d67f1-30b6-4dce-ba4a-5231bd1d29ad.replay",
+        "sha256": "900e52b7ee03a09b29d735e885e61cfe918dd1a6e20b27b6fda15f3bbb099a13",
+        "size": 61305,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6da0beec-bb00-43a9-aba8-d799accd2cb1.replay",
+        "sha256": "bab8a1d2feccade9a550e87fa409404025268d2f88b935ad2b8b230fbb9f01bd",
+        "size": 569638,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6de2824b-9281-49c2-8675-689e64fa2bd2.replay",
+        "sha256": "be31c1ef8bed5ac5a9ca675f54f9dc5b42067dc7e93d52ffdd32fce9367b9d05",
+        "size": 944739,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/6ec43339-d349-4845-8212-5e8b707b6ddc.replay",
+        "sha256": "6bb2a293d818aedd5b09c96c5522c3a01ab6c0d8711cba93f68421f54c1f24e3",
+        "size": 825648,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/70c56670-0dc8-4210-b625-ca03f54254b1.replay",
+        "sha256": "bab044c95756f72d7303adcf85835bfc2aa8b512c49f185598130ac5c948bf97",
+        "size": 908657,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/71d69c89-eb8a-4ed7-b414-dfa38a5ee992.replay",
+        "sha256": "0fb26e9701564c929f4df3be5485bd56a8743b6b746e286a222343a505b7b29b",
+        "size": 823077,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/72de7969-cae3-4b1d-8e2e-4d7b28c2fabf.replay",
+        "sha256": "0490b0cffaa01c612c2272dbb36c6e581824595aaba6e51b9f48d6245c13d562",
+        "size": 770811,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/734e6dad-4ec3-4fd3-8d7d-f50bab62b7b9.replay",
+        "sha256": "3f3ff57185441ec0093a9c7dc9a9869977337b62c705e968f6d401a81151862b",
+        "size": 829117,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7350b185-24ef-4641-868a-ed7247bf13e3.replay",
+        "sha256": "24ff6c8b97d0f8efabaabe4a285b6ee27929c85eb9ec71f61cc37ef6f7bfb787",
+        "size": 916977,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/73731669-38aa-4a17-9d29-4913c47685cc.replay",
+        "sha256": "d59243a2389e165813eed24466d7f458c76dcadfa854cbc0911799eb0796ae1f",
+        "size": 810839,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7416be98-2c9a-4171-8e52-4a35363479a6.replay",
+        "sha256": "d14cd46c4e9c116651f50235d1455dfe71b7ab8e2bc87ccd4048300b6bfcfb86",
+        "size": 862504,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7448d172-2481-4fb6-a1f7-9860abee14b4.replay",
+        "sha256": "795b0e450085151e443fe019e37d8182c8dc63c387cbfebc609b7187e478671e",
+        "size": 323682,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/74fe5893-4122-4af6-bc4b-5b43b185a327.replay",
+        "sha256": "e8537656da84fb193cf2e1b83280249a31dfadde84f824663df1a8a1933cc970",
+        "size": 664347,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/79428748-dcd1-43d1-99a4-7f62a587e61c.replay",
+        "sha256": "685ff4f587fc0e298fda42e1f932051ed66b0ac7aa354d1735754a35e41cd130",
+        "size": 704212,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7bdfcad1-688f-4b64-8096-a9266874bc1f.replay",
+        "sha256": "27f2c6d099f65b04fc1adc31e1eb9ec0b375e2f572119ce8eb377a54491bb995",
+        "size": 867745,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7bf68855-d0cb-407f-85c8-21197e43ac24.replay",
+        "sha256": "c7501a29126ac4a4f4b5af9243188779d46ff74c7b63dd8f5eaf2a4a4bd11af8",
+        "size": 915164,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7e9674b1-638f-4d6d-bb93-102267ae724b.replay",
+        "sha256": "83ac69096ba3410bc378626b8d879afae90c87cda4997b3a9b538c8e3fb8d65c",
+        "size": 941232,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7ebacecd-125a-4899-ae8f-41ab2f20dd8a.replay",
+        "sha256": "5a968129e8507921b2278a0ec7848d7cddd9df71a2d4efbf1dc89bb33f639909",
+        "size": 840720,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7f3e039d-61a2-484e-b463-0b40f6daa6c0.replay",
+        "sha256": "63bd99f499d150b3d09ae2215ec350cffaa881ec11bb450b85b1de15386dc1c9",
+        "size": 893700,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7f8ce6c7-8e87-4cb9-ab6d-24df9c7099f5.replay",
+        "sha256": "f8bcf6a19ea739800113645020440143b86cc4162f9b87a2cf8015b5a0cf83e4",
+        "size": 808223,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/7f8df05a-32a2-4746-aaf0-6d33f996698e.replay",
+        "sha256": "10ca97848934cefafce740beb8242f1ffd1a0da69a99883d039605904efd151d",
+        "size": 437412,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8243f457-b6bc-492d-9356-e4b73168a2ea.replay",
+        "sha256": "0de531d5464c9b311ab88f02c9c74eaa2822cc1a063267adcbbf9e4712024bb6",
+        "size": 888018,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8291596a-371d-4ac8-851a-fd8d5fb33cc4.replay",
+        "sha256": "e422b017a7e9fda545db38ee93d3fd7edbe9a0839f334acecf09fa98775e9924",
+        "size": 683279,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/839387d1-d527-4a59-b0fb-b89fe4bc706e.replay",
+        "sha256": "f98f38d8d52c78b37efb73968b4668db5eb8e391a570ebf1e1532ec65c0af528",
+        "size": 1119494,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8490a35f-7882-4dc4-8f1b-8c69070e1770.replay",
+        "sha256": "c2cf0177e301d7c435653d236a2fa0d4b4d1e34a4c7fbe55e6705c0ef4fd83b6",
+        "size": 872195,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8537f58b-9f51-494a-8d12-234470c064c0.replay",
+        "sha256": "0a1abd9399b683e6ff88e58c001ab15628947e94a9f14f2acf0ca8dc1cdb0e93",
+        "size": 920713,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/886f44d5-3200-4b16-a1bc-e72a8a192245.replay",
+        "sha256": "e54f6835b51e352b91cf2758a594a740ca2df9e9bba241f699921745ca5a46e3",
+        "size": 45937,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8878ab3c-8d6a-4874-adea-0e9bc5a2354f.replay",
+        "sha256": "128d2bc512d16e28e80d68c2834f784f82b6d8b27f0ca84f72b27c6d2b824bd1",
+        "size": 994546,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8c20bd89-adc2-4de1-ae79-50e907ddd928.replay",
+        "sha256": "469613f32ab112c28bb2df8e2804abb93e913a0b236ae04e7f5307376d54e68f",
+        "size": 603498,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8c2ffc82-78fe-42c8-9cfd-fb320869e99d.replay",
+        "sha256": "3f59c0fa6d16c3587d4bb6a308b4182212a5cb749126510a93aa9913e5fdcb8b",
+        "size": 877761,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8cde554d-82fd-4b24-96d7-b926004ec492.replay",
+        "sha256": "f2fbbd931eedf2d07e4f1e5fc19034677e492c916f044ac3cc019a450c780cbf",
+        "size": 982523,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8d34357d-7a82-498b-8bb1-340e081c804c.replay",
+        "sha256": "611d88dbd0685de4ea5b26ebf6efc04093e375d128e0c746e1f1137a73d3c054",
+        "size": 631417,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/8d82516b-f3f0-4472-9ba2-78b0c6d2e015.replay",
+        "sha256": "8db27438cf15676964f3420df2ceed32fb2c2dfa5a600f24ae02023381614ac3",
+        "size": 841749,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/90fdd9c9-8ec3-4708-82ac-343036fe6ae5.replay",
+        "sha256": "6a4b19477051f8bf6702095bd2d3a8cceab789144a9263e05ed0bda9ac829db5",
+        "size": 422835,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/915a2bd3-9bab-432c-91a7-c9f17a62cb45.replay",
+        "sha256": "29405878890c47b1f5f3dfb62b3323369a72863bd92b3fe37e1d8ed0d8577c1e",
+        "size": 467698,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9307a61a-2e99-4e26-90e3-00c691c9922b.replay",
+        "sha256": "4d62d3238507e5f6fb5bbe260ffab53dcf9bdebd4e2835c6a055fcb3f1781d48",
+        "size": 924467,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/934e1e56-9d76-4a5d-b913-7e3b78426c69.replay",
+        "sha256": "931611d33eb80ba4ef48cf1dbc31573e658e3bc978e099548f66d935389518a5",
+        "size": 905080,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/93eb3dab-5a42-4a3c-b062-473780d0dfa4.replay",
+        "sha256": "51c3d693fd2c141de89267832a7b65744e14a20aa2e785723420cf5992a1c65d",
+        "size": 933831,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/94f9fd3d-a014-44dc-b1b0-de68b6cf1be8.replay",
+        "sha256": "5829d9e14fb176800cb8a8ac8b4094b43f705dedf0f094c3168bccba1e1b1090",
+        "size": 550335,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9653fb4a-25cf-4cac-9b81-d6e383be46fe.replay",
+        "sha256": "775590db9db47667550a436d25c9018780b3852b0110cc2b63909ccaa8e46c72",
+        "size": 406634,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/97a9b280-a982-4013-9bf0-1046449edb15.replay",
+        "sha256": "892fe5cf69cac5072aee9354534df923d3d92a779f4ca1f9fd47aece9ce81aea",
+        "size": 895018,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/988afd24-9be6-4ae9-b3e5-f42cee02e3e6.replay",
+        "sha256": "7d0aaca746399a5817206c0893ed4e7bca7b33370b773d82e7578facd916417a",
+        "size": 1059394,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9958f76d-42dc-4975-a25c-b813b90602db.replay",
+        "sha256": "7a271e3227407b7dcb73be7ab75d896f7afb575f1a19a117d5d08ee9d6a05977",
+        "size": 922300,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9aa95b69-8347-4b8e-8013-e5b0341d1570.replay",
+        "sha256": "7feada354be86d18ed5820f7ec5e33c2fcbfbe0ccdbd05f6ae106f5d29ac9786",
+        "size": 1053084,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9b760baf-6f26-4bd9-94d7-b1561ae91c68.replay",
+        "sha256": "c1c34fe2b0ecfde6ed4d6faf1408090c19e261464b31af02d0ad0a4c4fd53f41",
+        "size": 938445,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9b9f7638-79e9-49a4-89fc-a70f6bd78aae.replay",
+        "sha256": "adc8fa96abd4b501fcfbeec4ea3198d9fd52d8fb3b372f5029f7c8fbebb3e20e",
+        "size": 1003242,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9d67597b-7a84-4ab8-8524-866f03025994.replay",
+        "sha256": "2da68f557707a317383906cf3b9c7accf97192ab6875c47d34233208974ef036",
+        "size": 960019,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/9f5dd98b-3182-4d86-adc7-2ded3c3e103c.replay",
+        "sha256": "e8537656da84fb193cf2e1b83280249a31dfadde84f824663df1a8a1933cc970",
+        "size": 664347,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/a4c07277-39bf-4e6c-96c7-c9726d5fffa4.replay",
+        "sha256": "17f7749828833739667ccf8c3f3c86225841b350dd4c1b783bb5ca0ce063b76e",
+        "size": 984507,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/a4e6d415-81f7-4fd7-89e8-60ef82125209.replay",
+        "sha256": "b74cde4ad109af1a2951be99edba5d88e8ce7c851a0cba398d67ef7c141a8207",
+        "size": 417432,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/a7f2ebb2-d56a-401b-9210-39d97c834f02.replay",
+        "sha256": "524ecfdfe1cd2066bd2c283b4f1ad536b6a556a44a345f8d0e6e3ddbfc790484",
+        "size": 909980,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/a8805e32-186a-4854-867a-a222ee5929fd.replay",
+        "sha256": "d4226957388e0f4ccd7f18c9d0c66767dce230de51b377588be6e2ef0df7290c",
+        "size": 897887,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/a91280eb-5481-44ed-8282-7fbba24756b6.replay",
+        "sha256": "760923c5e6f6a6b6878b07e9afbe00f0e3fb23ec62829acd04bbc776f07cea3d",
+        "size": 906140,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/aedee9c1-d6d8-45f1-9f55-8bcf68b3fb69.replay",
+        "sha256": "bd16874d543779a8c79685ae6d39dc7cce57afbbbd9ecaa7fb53dedbff6007ad",
+        "size": 976357,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b08390e6-be01-4593-992b-e8de0d8b0a38.replay",
+        "sha256": "c45aa040679d5abe2bf08ab9e4ca3e5e1479c662fee453c186b9a814c44287f0",
+        "size": 893028,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b16382e5-8fb7-42dc-8848-d6382fb490c3.replay",
+        "sha256": "b123b7e71f236d21b5ba560f4f317137b6e5fb578cf422bafa3f0b867654ea50",
+        "size": 848938,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b42c824b-5775-428a-87af-6b1e2653c684.replay",
+        "sha256": "e38b8b4bc64400e696c15f8dd99151ccc5b4a8802da77e89975f1e43bd5ff89e",
+        "size": 748509,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b593dce0-222b-4154-8c7f-21b8c11ed524.replay",
+        "sha256": "7f304cbbf787774f33cba1e1193ceff54f21cf626a501adbfb1f4e13680b8035",
+        "size": 900354,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b8395e30-4c9e-4fc9-8dd4-ca596a8db16f.replay",
+        "sha256": "8e332ed990449d0a91c973bef14a6049c287d3a398399f7368ff48da17e3fac2",
+        "size": 958073,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/b8738a1d-6fbf-46ac-ab8d-85e43f71db92.replay",
+        "sha256": "479973bf1b9f3f970c4328f293877bb04a5ca1927b7b67d81d9134f65b6ec501",
+        "size": 311985,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/bb3379f6-ccf1-4c0c-9c2f-597e32ccd493.replay",
+        "sha256": "6285c4c4a4c0ee50a1cce8f4c2fbea3af70d71636db69cdec8a7738db51fc976",
+        "size": 730756,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/bc4be780-157a-4a05-8765-1d13ceef9f28.replay",
+        "sha256": "dc344ff8be08fe90ee56c7d6abe6101ea127f5fdd4437a73c334d6524d945322",
+        "size": 562714,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/bcc53c10-64c5-408e-9555-788a0b23cbae.replay",
+        "sha256": "bcc54917a4d0c84cc8b947dd0f5e0a0f9f6c48359606371297aad6fe4229e44d",
+        "size": 860153,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/bce26a3b-a9fa-4bee-9b7b-4db5e2b56497.replay",
+        "sha256": "bef6dabb2d680f1964667c214bb97b0df30f654e49071f04c94256bd5fff3e16",
+        "size": 653910,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/bdd3274d-0978-4bdc-af00-baac3408fd75.replay",
+        "sha256": "2ee156c89cb318fc109fbe08849bf41c0a781dd2ea2bd9776e70c5c9d604e400",
+        "size": 1206974,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c2084837-72ad-47d0-85f8-f3044bf2198e.replay",
+        "sha256": "d35ce89b2617cd9d94d12034dafee54dc273719cadd1cf3da50807a8fe5e9b6c",
+        "size": 887829,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c222a5fe-bad1-4e0e-abaa-5e08ebebdbc6.replay",
+        "sha256": "a4f67fe42f9289a8566bfd026362dc8db882c0dc74036180a416b2015908e393",
+        "size": 644983,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c44c60c3-e3de-4ff6-b231-29f808af60d1.replay",
+        "sha256": "372cf75a187c65f37f04fd5535772f84b8f4c7e15885e6ff3a9fde80b590e478",
+        "size": 385760,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c4a81bed-33c8-4372-8895-b4a6fbc2f7e9.replay",
+        "sha256": "400eb20f90a74e7bf1520746f811adbd51921736298a9c68d91756c807def1cd",
+        "size": 909056,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c6d15647-650d-450c-b084-c170e7d090d4.replay",
+        "sha256": "3131f5b2fef3e811528527102481b9f63034829f982601cb2b82fc3541b04307",
+        "size": 866613,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c8433d4a-57f4-4657-b5f9-80c57cc74bb7.replay",
+        "sha256": "69c54beaad695d9735a14c34a2625b1fcb2f440bc8297270d4d0bfe7275f9bec",
+        "size": 917839,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/c93c9b6b-51b9-419c-99e8-f566ed1a949b.replay",
+        "sha256": "d23b1c52abc3e1d0c1bb7f6e5a1fd4c44a8b6d620d361bd2d8bdb3968498e26d",
+        "size": 794888,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/cb3920e4-df07-4af1-8de0-43f32b72615b.replay",
+        "sha256": "716e72ceab4a3804ce021a90dc5c92bc32b5d3122fae8dd099247f5ace0bf263",
+        "size": 737132,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/ccd11243-7067-4749-8ddf-1d90ad9295c3.replay",
+        "sha256": "24abc32200364dbd9a65af123da25588777d6a98182342560bd3d9c527ce5fee",
+        "size": 309654,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/ccdbfb13-6da2-4f9b-9d4d-c2d92cae5d9d.replay",
+        "sha256": "61db8dd98a76e8fd2d470207b14d0609643ce116cab5a30ea3ef78156b2cd983",
+        "size": 739883,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/cef8ce27-195c-4677-9883-1c6b03e8343c.replay",
+        "sha256": "4854785f164f939b4ebe4edd8bd01668027bc5fa8770ebf834d84ec68efc45b7",
+        "size": 851022,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d0244548-f2f5-4107-bf28-3060c288af48.replay",
+        "sha256": "6479a2403b446bd5885039bf105030516ce33aeb6617b8986e996e90aaeb362c",
+        "size": 953775,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d070eccf-3f7b-4a65-9506-80ddb0caa8cf.replay",
+        "sha256": "b15e699603ea4ab710fbc20223cc13e3b27b19aa542c7e8f088606aee018868f",
+        "size": 982385,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d155a645-5f1b-4c6a-be42-886b00b39dd9.replay",
+        "sha256": "056328b262eb11fd1c16e3252c11c6d885f54b3614846eeafc1cf7365e19295b",
+        "size": 672712,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d223b8fe-1d26-4606-a182-276d658029ea.replay",
+        "sha256": "16bf2d26822439ee0e2d229078a88065f42a55acfeef6c5cc873afb9ec52c57c",
+        "size": 323885,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d33ce78d-662f-4624-8bcf-45f9b9c744df.replay",
+        "sha256": "a212102f2cb4bea877fa14d2920c2f7eea5cb1f23a1b26cd4b2f10597978b074",
+        "size": 840419,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d36dbea5-13b0-477b-b4bd-92e3a0cadca6.replay",
+        "sha256": "d783595164bc65ede9ec8549e861d832497588a52bc25476ef73b3114f646e6c",
+        "size": 845437,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d480a094-647b-4601-9fcc-249ce3efa1f7.replay",
+        "sha256": "8c1d73348c126b216b8a0cd0a22a0f0ac5b5e705e33fd8a7aee097d625ed3b78",
+        "size": 889849,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d48dc7fc-97c6-443f-9c96-b4dba0b0df1b.replay",
+        "sha256": "e6f5cec648be9250f969815d7c2904b6697f2bc86cbae2b0a398b487255f6742",
+        "size": 769492,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d4d513c0-7a39-455c-871e-fe983bf73a27.replay",
+        "sha256": "dd3c328ecc35cf9b3f7eca36912bb73151ed8de11c1638ca4370d1de726c0ffa",
+        "size": 827904,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d5a350d8-6536-40c7-a795-eac758ae12c6.replay",
+        "sha256": "27bc410c4fa12e2f7a91a190f24faf2dc16e4a44c5e255a60c685de1196bd344",
+        "size": 755478,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d5b17971-51b0-4409-b4d8-155b41b8f4d3.replay",
+        "sha256": "13240cbdfc24d8b54ad4b14ca6e89bb583a91c14da65816d4a9906884430665c",
+        "size": 659361,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d5c14f61-67ea-40ed-b74d-0ddcdf49b490.replay",
+        "sha256": "a72db5dec02d85ad92424676905899b4993226bef3d1a82589eb6ecc03b20825",
+        "size": 862142,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d67fa982-9ba9-4f1c-ae3a-16a124d6c492.replay",
+        "sha256": "ab76d58719df3f42c4a0243b2fcd9c7a9ab04fe00691abfbc2e0e090ebd703ee",
+        "size": 422936,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d6d86eac-0941-4cd8-a3a6-15b2a8893461.replay",
+        "sha256": "1bdf41ca4d474103277f4aeb5a36e09fedcc09e2f2b859475e972a025f17d878",
+        "size": 215523,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d907ccbd-f512-4e57-928b-bbce04c6f327.replay",
+        "sha256": "34b1fd96386a5e66ba8d7b01a6f6157536eb5b930c0d55e02abc5943172f0b19",
+        "size": 589266,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/d9846187-3647-4fe6-ba2d-efb58ea129ef.replay",
+        "sha256": "0a9c502a55ecf8642571fb035eae18bd16e09346ffa3b364dd8e42c1a394cdf7",
+        "size": 362963,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/da9b9e46-489c-4a69-ad8a-d97d3b55e80e.replay",
+        "sha256": "0fb26e9701564c929f4df3be5485bd56a8743b6b746e286a222343a505b7b29b",
+        "size": 823077,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/dad33562-cf17-4f1a-b217-755574ffd76c.replay",
+        "sha256": "deb59135d26e7805c797332f130c1892781a95edaffa2cd180b7f1a97454127e",
+        "size": 949162,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/dbd5c61d-9561-4f52-8d38-13f3e8d1f7de.replay",
+        "sha256": "8690926b14c1cc7d2975f2b1ac089dcda665bceec7fa461cb896abf74b333ea2",
+        "size": 1048582,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/dcb5cbe1-11b9-48c9-8e3d-ee97f817a952.replay",
+        "sha256": "f8bcf6a19ea739800113645020440143b86cc4162f9b87a2cf8015b5a0cf83e4",
+        "size": 808223,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/dcb87c41-eeeb-4e3c-9717-683eb6a1c96c.replay",
+        "sha256": "57ee0f7e576b9fe3a209c5f16183041c3b7539257ba24f8f072806545c307857",
+        "size": 650433,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/e0d69336-1297-4945-a9bd-c0ac7986f64c.replay",
+        "sha256": "6d54a87cff4563e0bb82bbe98ac6287caf5357ead2618519116b057739ccfa36",
+        "size": 695216,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/e156e9c3-b0b3-4eac-836c-aa110c8dd5bd.replay",
+        "sha256": "2b5f61db97771f886f7ea9fbf806ad4fe8ad1112dae750bda218a113b5e31bbd",
+        "size": 812925,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/e7d28500-1bbc-48ff-9034-fc9a033c182c.replay",
+        "sha256": "316783b7bfe2db8b721997f59ad2946c8dd59983f36aa3edd2c6bb044561a461",
+        "size": 43622,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/e9dc1b11-6ea4-4073-8977-46934793902f.replay",
+        "sha256": "cab78b240f20e4cf353ebd2d4fb1af832e06a10a65f7596ea7de791f1ae4407b",
+        "size": 924535,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/eb0d4dcd-504d-4595-bab1-d1853d77f216.replay",
+        "sha256": "7272be4d4a73f387ab5ccb2e637df981dcffeb84264c058eadc9a9089747aa00",
+        "size": 913132,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f020ab59-853e-4589-bbde-e066a39ce9fe.replay",
+        "sha256": "35ad0b74137e690a9356acf1e466c23c4ab8129d3ec1558df27b318f28c17d10",
+        "size": 495383,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f06e51d3-09eb-47bc-ae8b-aa29c16c6b43.replay",
+        "sha256": "1c248e385a3ae712db5cc99bbf8f52f975fd553e7a73c363ad2f3262c844ecd9",
+        "size": 501506,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f0870d85-77b0-41a6-86cb-90ed97042095.replay",
+        "sha256": "1c6512ee064535a8a5b24c7f48f3092d2c2e0f47ae9ea81a378896648712c4f1",
+        "size": 962933,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f1b62276-f173-4e7a-bb7c-cf7aff0d39d6.replay",
+        "sha256": "9cbe2b1efc7f4f131e19929a127e8135847d904c62cb013c4235fe125c6d2147",
+        "size": 1019003,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f1ea9081-d02b-433e-86de-da938edb47a7.replay",
+        "sha256": "6e28020bd574e6f166a4b8bb69428426ca53632b899f6240678c12aa30d83863",
+        "size": 902206,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f33e79a8-9e17-4e3c-8ef2-2a0cbcb3cc31.replay",
+        "sha256": "cbac15c96b951c24b5d13b04169acf32e35e99f4060458c61d2b91898896ebd6",
+        "size": 570642,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f36a8b5e-f41f-4055-a24b-01cc116a58bf.replay",
+        "sha256": "47a34b80dd394d1145a881bdaaccba871a25b159365c3bbddcfb557ca7894cdd",
+        "size": 905333,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f43793f0-2184-42fe-920d-ce3bd1c74eb4.replay",
+        "sha256": "ad3db8debc06cfd7163544c67704ae913c5cb14edb6071ad8014b281e5d03ca1",
+        "size": 53073,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f5bd7e8a-e5e4-4563-b430-49b3bdcd2e87.replay",
+        "sha256": "08d8ae0120424c4c9e3c63930878549af983260c3e48b9c2495cfa9df447c429",
+        "size": 738992,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f7d8624c-0c29-4f4b-bded-c1e9a7015b98.replay",
+        "sha256": "e7bb65074b37b281e4b4ec3705bbea9eb49b0fe0c1714e6c92a151187e1dcb6e",
+        "size": 813328,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f7f02bba-399d-4593-8278-8cf9c2d1bc4a.replay",
+        "sha256": "a77aa7a264dc7910963ea9881bfac3794cd53742bccc41510d2a11f55418e938",
+        "size": 181293,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f92f7fd7-a4d7-44a2-a387-b15d1e702e03.replay",
+        "sha256": "38996e0dda51db08f291925f93b9b00bd6e9e463f46696ccce5510aa0d695743",
+        "size": 401443,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/f9e39f9f-c3d2-48dc-9057-80b2821c1cde.replay",
+        "sha256": "d8325ad6d018e4e75656da190ab1bfbea288079c04c98a59e4fd5acf7a5d0ccf",
+        "size": 641051,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/fa32f592-2674-456c-831e-fa8aa8c2841e.replay",
+        "sha256": "947b737419c12309ea5f657bf06d592a39e599a5499bfa0046d033afa109daf4",
+        "size": 729345,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/faf478e6-a595-4c0b-b69c-da488be25a90.replay",
+        "sha256": "05c1a663ea130d16f0d9ce76c415571b49607d08329b82a2999db824e4d2c29c",
+        "size": 987792,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/fb3002df-4266-4da7-b222-3bef037f238c.replay",
+        "sha256": "3ebe81203319364c920ede0d51a23608de48ee7ff91416ab727357721637e5be",
+        "size": 1097456,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/fc1104b3-b12b-4d13-a73b-6c2577a80069.replay",
+        "sha256": "ca7dbacf5f064114d28fa703753742f4e45d5af78dce71422898f8c05c19c5a4",
+        "size": 913347,
+        "header_plausible": true
+      },
+      {
+        "file": "/mnt/data/extracted_replays/ranked-duels/ff3806b3-c359-4a50-825e-be2f805fbae8.replay",
+        "sha256": "b54fb94825dd0a9666ef21d60c2ae502480a765151135e006847b8cfc6167c56",
+        "size": 885575,
+        "header_plausible": true
+      }
+    ]
+  },
+  "ranked_doubles": {
+    "count": 0,
+    "unique_by_sha256": 0,
+    "duplicate_files": 0,
+    "below_100kb": 0,
+    "plausible_header_count": 0,
+    "files": []
+  },
+  "tas": {
+    "count": 67,
+    "structurally_valid": 67,
+    "total_records": 108461,
+    "zero_record_files": 1,
+    "files": [
+      {
+        "file": "/mnt/data/extracted_tas/tas/!a dominus flip reset #1.data",
+        "version": 1,
+        "record_count": 807,
+        "bytes": 25960,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/2 player tas.data",
+        "version": 1,
+        "record_count": 1030,
+        "bytes": 33096,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/360 m,akuf.data",
+        "version": 1,
+        "record_count": 555,
+        "bytes": 17896,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Dom 1.data",
+        "version": 1,
+        "record_count": 1262,
+        "bytes": 40520,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Galleon #1.data",
+        "version": 1,
+        "record_count": 693,
+        "bytes": 22312,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Ground Pinch.data",
+        "version": 1,
+        "record_count": 553,
+        "bytes": 17832,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Large field, ground #1.data",
+        "version": 1,
+        "record_count": 476,
+        "bytes": 15368,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Large field, ground #2 octane.data",
+        "version": 1,
+        "record_count": 3022,
+        "bytes": 96840,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Large field, ground #4.data",
+        "version": 1,
+        "record_count": 2024,
+        "bytes": 64904,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Largie field #3 flip resets.data",
+        "version": 1,
+        "record_count": 2053,
+        "bytes": 65832,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/The papa.data",
+        "version": 1,
+        "record_count": 2952,
+        "bytes": 94600,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/Yoshis course dash dribbling.data",
+        "version": 1,
+        "record_count": 1500,
+        "bytes": 48136,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/adfadfasfasdsssssssssss.data",
+        "version": 1,
+        "record_count": 2311,
+        "bytes": 74088,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/back wll domminus 1.data",
+        "version": 1,
+        "record_count": 508,
+        "bytes": 16392,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/backwards jac flip 2.data",
+        "version": 1,
+        "record_count": 1369,
+        "bytes": 43944,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/backwards jac flip 3.data",
+        "version": 1,
+        "record_count": 1378,
+        "bytes": 44232,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/backwards jac flip.data",
+        "version": 1,
+        "record_count": 1604,
+        "bytes": 51464,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/batmobile hrse dash.data",
+        "version": 1,
+        "record_count": 206,
+        "bytes": 6728,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/batmonbile ground.data",
+        "version": 1,
+        "record_count": 2368,
+        "bytes": 75912,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/cool bggy rinbgs.data",
+        "version": 1,
+        "record_count": 649,
+        "bytes": 20904,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/dash dribble normal field octane.data",
+        "version": 1,
+        "record_count": 540,
+        "bytes": 17416,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/dashes normal.data",
+        "version": 1,
+        "record_count": 407,
+        "bytes": 13160,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/dom 2.data",
+        "version": 1,
+        "record_count": 1161,
+        "bytes": 37288,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/dom 3.data",
+        "version": 1,
+        "record_count": 1062,
+        "bytes": 34120,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/doma.data",
+        "version": 1,
+        "record_count": 1258,
+        "bytes": 40392,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/dominus no flip.data",
+        "version": 1,
+        "record_count": 2976,
+        "bytes": 95368,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/double dash on the ball.data",
+        "version": 1,
+        "record_count": 652,
+        "bytes": 21000,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/forest.data",
+        "version": 1,
+        "record_count": 2521,
+        "bytes": 80808,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/g.data",
+        "version": 1,
+        "record_count": 612,
+        "bytes": 19720,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/g1 (upgraded by bredzel).data",
+        "version": 1,
+        "record_count": 881,
+        "bytes": 28328,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/g1.data",
+        "version": 1,
+        "record_count": 563,
+        "bytes": 18152,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/gelicopter helicopter .data",
+        "version": 1,
+        "record_count": 530,
+        "bytes": 17096,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/ground a.data",
+        "version": 1,
+        "record_count": 348,
+        "bytes": 11272,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/ground octane 1.data",
+        "version": 1,
+        "record_count": 680,
+        "bytes": 21896,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/ground pass.data",
+        "version": 1,
+        "record_count": 271,
+        "bytes": 8808,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/ground.data",
+        "version": 1,
+        "record_count": 0,
+        "bytes": 136,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/helicopter flip reset no stalls.data",
+        "version": 1,
+        "record_count": 556,
+        "bytes": 17928,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/helicopter.data",
+        "version": 1,
+        "record_count": 717,
+        "bytes": 23080,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/hide and seek map splice #2 .data",
+        "version": 1,
+        "record_count": 1943,
+        "bytes": 62312,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/hide and seek map.data",
+        "version": 1,
+        "record_count": 7180,
+        "bytes": 229896,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet 2.data",
+        "version": 1,
+        "record_count": 1299,
+        "bytes": 41704,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet big field ground pinch.data",
+        "version": 1,
+        "record_count": 911,
+        "bytes": 29288,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet cross map ground pinch.data",
+        "version": 1,
+        "record_count": 632,
+        "bytes": 20360,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet curve ground dash.data",
+        "version": 1,
+        "record_count": 731,
+        "bytes": 23528,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet dash 2.data",
+        "version": 1,
+        "record_count": 1094,
+        "bytes": 35144,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet fling .data",
+        "version": 1,
+        "record_count": 840,
+        "bytes": 27016,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/jet noflip.data",
+        "version": 1,
+        "record_count": 207,
+        "bytes": 6760,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/lethamyr dribble #3.data",
+        "version": 1,
+        "record_count": 4779,
+        "bytes": 153064,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/lethamyrs dribble #2.data",
+        "version": 1,
+        "record_count": 5082,
+        "bytes": 162760,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/lethamyrs dribble #4.data",
+        "version": 1,
+        "record_count": 1045,
+        "bytes": 33576,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/lethamyrs dribble #6.data",
+        "version": 1,
+        "record_count": 1987,
+        "bytes": 63720,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/lethamyrs dribble.data",
+        "version": 1,
+        "record_count": 1673,
+        "bytes": 53672,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/ltehamyrs dribble #5.data",
+        "version": 1,
+        "record_count": 2813,
+        "bytes": 90152,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/masterpo.data",
+        "version": 1,
+        "record_count": 12633,
+        "bytes": 404392,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/no flip 1.data",
+        "version": 1,
+        "record_count": 832,
+        "bytes": 26760,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/no flip 2.data",
+        "version": 1,
+        "record_count": 1525,
+        "bytes": 48936,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/noflip ariel #1.data",
+        "version": 1,
+        "record_count": 796,
+        "bytes": 25608,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/noi flip domius reset.data",
+        "version": 1,
+        "record_count": 1262,
+        "bytes": 40520,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/octane .data",
+        "version": 1,
+        "record_count": 1603,
+        "bytes": 51432,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/pasterooni.data",
+        "version": 1,
+        "record_count": 374,
+        "bytes": 12104,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/snowday.data",
+        "version": 1,
+        "record_count": 5899,
+        "bytes": 188904,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/spinnyground oct #!.data",
+        "version": 1,
+        "record_count": 285,
+        "bytes": 9256,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/split screen test player #1.data",
+        "version": 1,
+        "record_count": 590,
+        "bytes": 19016,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/tas dominus with aimbot.data",
+        "version": 1,
+        "record_count": 2186,
+        "bytes": 70088,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/tree town tas.data",
+        "version": 1,
+        "record_count": 3313,
+        "bytes": 106152,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/tsa.data",
+        "version": 1,
+        "record_count": 698,
+        "bytes": 22472,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      },
+      {
+        "file": "/mnt/data/extracted_tas/tas/wall #1.data",
+        "version": 1,
+        "record_count": 1194,
+        "bytes": 38344,
+        "record_width": 32,
+        "trailing_bytes": 128,
+        "structurally_valid": true,
+        "trainable": false,
+        "reason": "TAS control semantics and starting state not yet verified"
+      }
+    ]
+  }
+}

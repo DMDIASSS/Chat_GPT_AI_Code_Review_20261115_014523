@@ -1,0 +1,67 @@
+{
+  "workers": 2,
+  "device": "auto",
+  "threads": 1,
+  "seed": 631031,
+  "rewards": "shaped",
+  "env": {
+    "episode_seconds": 60,
+    "no_touch_seconds": 20,
+    "replay_bank": null,
+    "learner_hitbox": "breakout"
+  },
+  "ppo": {
+    "learning_rate": 5e-06,
+    "n_steps": 1024,
+    "batch_size": 512,
+    "n_epochs": 2,
+    "gamma": 0.999,
+    "gae_lambda": 0.97,
+    "clip_range": 0.05,
+    "ent_coef": 0.0002,
+    "target_kl": 0.01
+  },
+  "chronos": {
+    "reward_profile": "potential_goal_v2",
+    "actor_lr": 5e-06,
+    "critic_lr": 0.0003,
+    "anchor_coef": 0.2,
+    "critic_warmup_updates": 16,
+    "checkpoints_keep": 3,
+    "anchor_kl_limit": 0.1,
+    "guard": {
+      "enabled": true,
+      "every": 131072,
+      "pairs": 4,
+      "confirmation_pairs": 8,
+      "seconds": 60,
+      "seed": 83000001,
+      "min_delta": 0.03,
+      "z": 1.96,
+      "per_opponent_tolerance": 0.2,
+      "rollback_after": 2
+    }
+  },
+  "league": {
+    "snapshot_every": 32768,
+    "history_size": 6,
+    "weights": {
+      "chronos": 0.25,
+      "galactus": 0.25,
+      "ripple": 0.25,
+      "nexto": 0.25
+    }
+  },
+  "curriculum": {
+    "adaptive": false,
+    "weights": {
+      "kickoff": 0.5,
+      "shot": 0.15,
+      "defense": 0.15,
+      "dribble": 0.075,
+      "recovery": 0.075,
+      "aerial": 0.025,
+      "wall": 0.025
+    }
+  }
+}

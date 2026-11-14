@@ -1,0 +1,49 @@
+{
+  "state": "stopped",
+  "timesteps": 179714,
+  "halt_reason": null,
+  "guard": {
+    "step": 141356,
+    "checks": 1,
+    "regressions": 0,
+    "decision": "retain",
+    "statistics": {
+      "blocks": 16,
+      "trials": 32,
+      "mean_delta": -0.09375,
+      "standard_error": 0.06798820363366967,
+      "by_opponent_delta": {
+        "chronos": 0.0,
+        "galactus": -0.125,
+        "nexto": 0.0,
+        "ripple": -0.25
+      }
+    },
+    "candidate": {
+      "matches": 32,
+      "wins": 17,
+      "draws": 6,
+      "losses": 9,
+      "goals_for": 66,
+      "goals_against": 30
+    },
+    "champion": {
+      "matches": 32,
+      "wins": 19,
+      "draws": 5,
+      "losses": 8,
+      "goals_for": 69,
+      "goals_against": 28
+    }
+  },
+  "wandb": {
+    "mode": "online",
+    "state": "online",
+    "id": "aae09c2f",
+    "project": "novaforge",
+    "entity": "dm_dias-none",
+    "url": "https://forge.coreweave.com/wandb/dm_dias-none/novaforge/runs/aae09c2f",
+    "timesteps": 179588,
+    "error": null
+  }
+}

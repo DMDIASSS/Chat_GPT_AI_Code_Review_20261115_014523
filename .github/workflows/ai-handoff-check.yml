@@ -1,0 +1,29 @@
+name: Verify AI project handoff updates
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Require changelog and session state with project changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_PUSH: ${{ github.event.before }}
+          BASE_PR: ${{ github.event.pull_request.base.sha }}
+          HEAD_PR: ${{ github.event.pull_request.head.sha }}
+          HEAD_PUSH: ${{ github.sha }}
+        run: |
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            python3 tools/ai_handoff.py check --base "$BASE_PR" --head "$HEAD_PR"
+          else
+            python3 tools/ai_handoff.py check --base "$BASE_PUSH" --head "$HEAD_PUSH"
+          fi
